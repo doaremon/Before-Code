@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sellingRealEstate"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View style="@style/line_style" />
+
+    <TextView
+        android:id="@id/tvAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/trend_list_bg"
+        android:padding="10.0dip"
+        android:text="楼盘卖点"
+        android:textColor="@color/head_button_text"
+        android:textSize="@dimen/detail_tag_diver" />
+
+    <View style="@style/line_style" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/gap"
+        android:layout_marginRight="@dimen/gap"
+        android:background="@drawable/ffb_bg_kapian"
+        android:gravity="left|center"
+        android:minHeight="@dimen/min_area_action"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/gap"
+        android:paddingRight="4.0dip" >
+
+        <LinearLayout
+            android:id="@id/llSellingRealEstate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+<!--             <include -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 layout="@layout/property_detail_label_content_item" /> -->
+        </LinearLayout>
+
+        <TextView
+            android:id="@id/tvSellingRealEstate"
+            style="@style/block_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠现场优惠"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

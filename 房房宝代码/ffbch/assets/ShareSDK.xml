@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInfor>
+    <ShareSDK AppKey="46688343fdbe" />
+
+    <SinaWeibo
+        AppKey="3659911399"
+        AppSecret="8e66610b432b270028f46b9ea448cd5b"
+        Enable="true"
+        Id="1"
+        RedirentUrl="http://www.fangfangbao.com"
+        ShareByAppClient="true"
+        SortId="1" />
+
+    <Wechat
+        AppId="wxcd903acb0c3ffdd1"
+        AppSecret="8c8568093f8f6daa40a6fdc7e69ef20e"
+        BypassApproval="true"
+        Enable="true"
+        Id="2"
+        SortId="2" />
+
+    <WechatMoments
+        AppId="wxcd903acb0c3ffdd1"
+        AppSecret="8c8568093f8f6daa40a6fdc7e69ef20e"
+        BypassApproval="true"
+        Enable="true"
+        Id="3"
+        SortId="3" />
+
+    <WechatFavorite
+        AppId="wxcd903acb0c3ffdd1"
+        AppSecret="8c8568093f8f6daa40a6fdc7e69ef20e"
+        Enable="true"
+        Id="4"
+        SortId="4" />
+<!--     <Wechat -->
+<!--         AppId="wxfba4d0e5597742dc" -->
+<!--         AppSecret="521ed9f3923034090b1253424ee03c49" -->
+<!--         BypassApproval="true" -->
+<!--         Enable="true" -->
+<!--         Id="2" -->
+<!--         SortId="2" /> -->
+
+<!--     <WechatMoments -->
+<!--         AppId="wxfba4d0e5597742dc" -->
+<!--         AppSecret="521ed9f3923034090b1253424ee03c49" -->
+<!--         BypassApproval="true" -->
+<!--         Enable="true" -->
+<!--         Id="3" -->
+<!--         SortId="3" /> -->
+
+<!--     <WechatFavorite -->
+<!--         AppId="wxfba4d0e5597742dc" -->
+<!--         AppSecret="521ed9f3923034090b1253424ee03c49" -->
+<!--         Enable="true" -->
+<!--         Id="4" -->
+<!--         SortId="4" /> -->
+
+    <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
+
+
+    <!-- <QQ -->
+    <!-- AppId="100371282" -->
+    <!-- AppKey="aed9b0303e3ed1e27bae87c33761161d" -->
+    <!-- Enable="true" -->
+    <!-- Id="7" -->
+    <!-- ShareByAppClient="true" -->
+    <!-- SortId="7" /> -->
+
+
+    <WhatsApp
+        Enable="true"
+        Id="5"
+        SortId="5" />
+
+</DevInfor>

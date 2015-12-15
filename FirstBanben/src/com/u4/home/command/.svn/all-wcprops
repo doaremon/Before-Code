@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/command
+END
+CommandSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/command/CommandSender.java
+END
+TranslucentActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/SmartHome/!svn/ver/565/src/com/u4/home/command/TranslucentActivity.java
+END
+CommandListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/SmartHome/!svn/ver/567/src/com/u4/home/command/CommandListener.java
+END
+CommandListenerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/SmartHome/!svn/ver/567/src/com/u4/home/command/CommandListenerService.java
+END
+Listener.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/command/Listener.java
+END
+Mainbroadcast.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/command/Mainbroadcast.java
+END
+TCPMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/command/TCPMessage.java
+END
+TCPListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/command/TCPListener.java
+END
+onReceiveCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/SmartHome/!svn/ver/567/src/com/u4/home/command/onReceiveCommand.java
+END

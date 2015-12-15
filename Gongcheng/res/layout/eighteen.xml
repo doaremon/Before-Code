@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sub_title_bg" >
+
+        <ImageButton
+            android:id="@+id/zhangdanzixunhoutui"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@drawable/sub_title_back_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="31dp"
+            android:layout_weight="0.74"
+            android:gravity="center"
+            android:text="账单查询"
+            android:textColor="#fffffb" />
+    </LinearLayout>
+     <TextView
+         android:layout_marginTop="10dp" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:text="请选择要查询的月份:"
+         
+         />
+     <Spinner 
+         android:id="@+id/yuefen_spinner"
+         android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:background="@drawable/pop_bg"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         />
+     
+     <TextView 
+         android:layout_marginTop="20dp" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+         android:text="查询结果:"
+         />
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/detail_top_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+            android:textColor="#426ab3"
+             android:paddingLeft="13dp"
+            android:text="月份" />
+
+        <TextView
+            android:id="@+id/zhangdanchaxun_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+             android:paddingLeft="8dp"
+            android:text="sssss" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/detail_bottom_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+            android:textColor="#426ab3"
+             android:paddingLeft="10dp"
+            android:text="费用" />
+
+        <TextView
+            android:id="@+id/zixundingdan_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+             android:paddingLeft="8dp"
+             />
+    </LinearLayout>
+
+</LinearLayout>

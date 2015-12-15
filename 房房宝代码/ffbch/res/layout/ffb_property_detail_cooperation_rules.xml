@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <View style="@style/line_style" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/trend_list_bg"
+        android:padding="10.0dip"
+        android:text="合作规则"
+        android:textColor="@color/head_button_text"
+        android:textSize="@dimen/detail_tag_diver" />
+
+    <View style="@style/line_style" />
+
+    <LinearLayout
+        android:id="@id/rules_jili_tag"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="8.0dip"
+        android:paddingTop="8.0dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="18.0dip"
+            android:src="@drawable/ffb_icon_jili" />
+
+        <TextView
+            android:id="@id/rules_jili"
+            style="@style/block_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4.0dip"
+            android:text="带奖金来看带奖金来看带奖金来看带奖金来看" />
+    </LinearLayout>
+
+    <View
+        android:id="@id/rules_jili_img"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="90.0dip"
+        android:background="#ffc6c6cc" />
+
+    <LinearLayout
+        android:id="@id/rules_yongjin_tag"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="8.0dip"
+        android:paddingTop="8.0dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="18.0dip"
+            android:src="@drawable/ffb_icon_yongjin" />
+
+        <TextView
+            android:id="@id/rules_yongjin"
+            style="@style/block_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="0.0dip"
+            android:text="佣金佣金佣金佣金佣金" />
+    </LinearLayout>
+
+    <View
+        android:id="@id/rules_yongjin_img"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="20.0dip"
+        android:background="#ffc6c6cc" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ffb_bg_kapian"
+        android:gravity="left|center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/tvCooperationRules"
+            style="@style/block_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="0"
+            android:text="合作规则合作规则合作规则合作规则合作规则合作规则合作规则合作规则合作规则合作规则合作规则合作规则合作规则合作规则合作规则合作规则合作规则合作规则"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@id/hezuollOpenClose"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="12.0dip" >
+
+            <ToggleButton
+                android:id="@id/tbOpenClose"
+                style="@style/block_open_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

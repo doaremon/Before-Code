@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/trend_list_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ffb_actionbar_header" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/setting_margin_left"
+        android:layout_marginRight="@dimen/setting_margin_left"
+        android:layout_marginTop="@dimen/setting_margin_left"
+        android:text="您可输入新的门店码绑定到新门店，个人信息、客户和交易记录等资料都将保留。"
+        android:textColor="@drawable/ffb_text_bg_item_gray"
+        android:textSize="@dimen/text_normal_sub" />
+
+    <TextView
+        android:id="@id/activity_change_company_current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/setting_margin_left"
+        android:layout_marginRight="@dimen/setting_margin_left"
+        android:text="当前门店："
+        android:textColor="@drawable/ffb_text_bg_item_gray"
+        android:textSize="@dimen/text_normal_sub" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15.0dip"
+        android:layout_marginLeft="@dimen/setting_margin_left"
+        android:layout_marginRight="@dimen/setting_margin_left"
+        android:text="审核需要1-2个工作日"
+        android:textColor="@drawable/ffb_text_bg_item_gray"
+        android:textSize="@dimen/text_normal_sub" />
+
+    <include layout="@layout/ffb_divider1" />
+
+    <LinearLayout
+        style="@style/setting_section_style"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@id/img_choose"
+            android:layout_width="151.0dip"
+            android:layout_height="92.0dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="17.0dip"
+             />
+<!-- android:src="@drawable/icon_shangchuanmingpian" -->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="17.0dip"
+            android:contentDescription="@string/app_name"
+            android:src="@color/divider" />
+
+        <EditText
+            android:id="@id/activity_change_company_num"
+            style="@style/editting_right"
+            android:layout_width="fill_parent"
+            android:layout_height="51.0dip"
+            android:layout_marginLeft="@dimen/setting_edit_margin_left"
+            android:layout_marginRight="@dimen/setting_margin_right"
+            android:hint="新门店码"
+            android:inputType="number"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <include layout="@layout/ffb_divider1" />
+
+    <Button
+        android:id="@id/activity_change_company_commit"
+        style="@style/button_style"
+        android:text="提交审核" />
+
+</LinearLayout>

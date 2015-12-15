@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notBinded"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_no_data"
+    android:visibility="gone" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40.0dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ffb_load_alert" />
+
+        <TextView
+            android:id="@+id/tvBind"
+            style="@style/button_style"
+            android:layout_width="fill_parent"
+            android:text="绑定门店码" />
+
+        <!-- <LinearLayout -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="center_horizontal" -->
+        <!-- android:layout_marginTop="@dimen/setting_margin_left" > -->
+
+
+        <!-- <TextView -->
+        <!-- android:id="@id/textView1" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:text="已有账号？" -->
+        <!-- android:textColor="@color/black" -->
+        <!-- android:textSize="14.0sp" /> -->
+
+
+        <!-- <Button -->
+        <!-- android:id="@id/btnLogin" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:background="@null" -->
+        <!-- android:text="马上登录" -->
+        <!-- android:textColor="@color/orange" -->
+        <!-- android:textSize="14.0sp" /> -->
+        <!-- </LinearLayout> -->
+    </LinearLayout>
+
+</FrameLayout>

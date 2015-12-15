@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/list_row" >
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="60dp" />
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        style="@style/list_row_icon_left"
+        android:contentDescription="@string/icon"
+        android:src="@drawable/ic_video_online" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/list_row_title" />
+
+</RelativeLayout>

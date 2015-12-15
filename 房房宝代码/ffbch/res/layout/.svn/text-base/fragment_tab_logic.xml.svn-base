@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+	<include layout="@layout/ffb_actionbar_header"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp" />
+
+    <LinearLayout
+        android:id="@id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55.0dip"
+            android:background="@color/bg_nav"
+            android:paddingBottom="11.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="11.0dip" >
+
+            <TextView
+                android:id="@id/fragment_performance_tab_commisssion"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/ffb_bg_tab_left"
+                android:gravity="center"
+                android:text="佣金积分"
+                android:textColor="@color/ffb_white_orange"
+                android:textSize="18.0sp" />
+
+            <FrameLayout
+                android:id="@id/fragment_performance_tab_credit"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:id="@+id/fragment_performance_tab_credit_textView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ffb_bg_tab_middle"
+                    android:gravity="center"
+                    android:text="信用等级"
+                    android:textColor="@color/ffb_white_orange"
+                    android:textSize="18.0sp" />
+
+                <ImageView
+                    android:id="@id/fragment_performance_tab_credit_n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="40.0dip"
+                    android:layout_marginTop="5.0dip" />
+                <!-- android:src="@drawable/news2" -->
+            </FrameLayout>
+
+            <TextView
+                android:id="@id/fragment_performance_tab_rank"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/ffb_bg_tab_right"
+                android:gravity="center"
+                android:text="排行榜"
+                android:textColor="@color/ffb_white_orange"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/content1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <include layout="@layout/ffb_not_logined_layout1" />
+    <include layout="@layout/ffb_not_binded_layout1" />
+
+    <include layout="@layout/ffb_load_failed_layout1" />
+
+
+</LinearLayout>

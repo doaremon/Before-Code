@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_middle" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/list_group_single"
+                android:text="@string/unlock_password" />
+
+            <RelativeLayout
+                android:id="@+id/rl_password"
+                style="@style/list_row" >
+
+                <ImageView
+                    style="@style/list_row_icon_left"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/icon_lock_open" />
+
+                <TextView
+                    style="@style/list_row_title"
+                    android:text="@string/unlock_password" />
+
+                <TextView
+                    android:id="@+id/tv_password"
+                    style="@style/list_row_content" />
+
+                <View style="@style/list_divider" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/list_group_single"
+                android:text="@string/phone_bind" />
+
+            <RelativeLayout
+                android:id="@+id/rl_phone_one"
+                style="@style/list_row" >
+
+                <ImageView
+                    style="@style/list_row_icon_left"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/icon_phone" />
+
+                <TextView
+                    style="@style/list_row_title"
+                    android:text="@string/phone_1" />
+
+                <TextView
+                    android:id="@+id/tv_phone_one"
+                    style="@style/list_row_content" />
+
+                <View style="@style/list_divider" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_phone_two"
+                style="@style/list_row" >
+
+                <ImageView
+                    style="@style/list_row_icon_left"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/icon_phone" />
+
+                <TextView
+                    style="@style/list_row_title"
+                    android:text="@string/phone_2" />
+
+                <TextView
+                    android:id="@+id/tv_phone_two"
+                    style="@style/list_row_content" />
+
+                <View style="@style/list_divider" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_phone_three"
+                style="@style/list_row" >
+
+                <ImageView
+                    style="@style/list_row_icon_left"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/icon_phone" />
+
+                <TextView
+                    style="@style/list_row_title"
+                    android:text="@string/phone_3" />
+
+                <TextView
+                    android:id="@+id/tv_phone_three"
+                    style="@style/list_row_content" />
+
+                <View style="@style/list_divider" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/list_group_single"
+                android:text="@string/sound" />
+
+            <RelativeLayout
+                android:id="@+id/rl_volume"
+                style="@style/list_row" >
+
+                <ImageView
+                    style="@style/list_row_icon_left"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/icon_sound" />
+
+                <TextView
+                    style="@style/list_row_title"
+                    android:text="@string/volume_setting" />
+
+                <View style="@style/list_divider" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_ring_warning"
+                style="@style/list_row" >
+
+                <ImageView
+                    style="@style/list_row_icon_left"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/icon_shield" />
+
+                <TextView
+                    style="@style/list_row_title"
+                    android:text="@string/ring_warning" />
+
+                <TextView
+                    android:id="@+id/tv_ring_warning"
+                    style="@style/list_row_content" />
+
+                <View style="@style/list_divider" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_ring_call"
+                style="@style/list_row" >
+
+                <ImageView
+                    style="@style/list_row_icon_left"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/icon_bell" />
+
+                <TextView
+                    style="@style/list_row_title"
+                    android:text="@string/ring_call" />
+
+                <TextView
+                    android:id="@+id/tv_ring_call"
+                    style="@style/list_row_content" />
+
+                <View style="@style/list_divider" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_ring_tip"
+                style="@style/list_row" >
+
+                <ImageView
+                    style="@style/list_row_icon_left"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/icon_bell" />
+
+                <TextView
+                    style="@style/list_row_title"
+                    android:text="@string/ring_message" />
+
+                <TextView
+                    android:id="@+id/tv_ring_tip"
+                    style="@style/list_row_content" />
+
+                <View style="@style/list_divider" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/list_group_single"
+                android:text="@string/screen" />
+
+            <RelativeLayout
+                android:id="@+id/rl_contrast"
+                style="@style/list_row" >
+
+                <ImageView
+                    style="@style/list_row_icon_left"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/icon_contrast" />
+
+                <TextView
+                    style="@style/list_row_title"
+                    android:text="@string/brightness" />
+
+                <View style="@style/list_divider" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/list_group_single"
+                android:text="@string/system" />
+
+            <RelativeLayout
+                android:id="@+id/rl_app"
+                style="@style/list_row" >
+
+                <ImageView
+                    style="@style/list_row_icon_left"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/ic_world" />
+
+                <TextView
+                    style="@style/list_row_title"
+                    android:text="@string/phone" />
+
+                <View style="@style/list_divider" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_server"
+                style="@style/list_row" >
+
+                <ImageView
+                    style="@style/list_row_icon_left"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/icon_server" />
+
+                <TextView
+                    style="@style/list_row_title"
+                    android:text="@string/server" />
+
+                <TextView
+                    android:id="@+id/tv_server"
+                    style="@style/list_row_content" />
+
+                <View style="@style/list_divider" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_version"
+                style="@style/list_row" >
+
+                <ImageView
+                    style="@style/list_row_icon_left"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/ic_information" />
+
+                <TextView
+                    style="@style/list_row_title"
+                    android:text="@string/version" />
+
+                <TextView
+                    android:id="@+id/tv_version"
+                    style="@style/list_row_content" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

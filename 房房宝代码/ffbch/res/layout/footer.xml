@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_foot"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_deep" />
+    <!-- 底部按钮以及 编辑框 -->
+
+    <LinearLayout
+        android:id="@+id/bottonall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/chat_bottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <EditText
+                android:id="@+id/chat_content_et"
+                style="@style/ChatingEditText"
+                android:layout_width="match_parent"
+                android:background="@drawable/ffb_chat_edit"
+                android:hint="我要回复内容"
+                android:inputType="textCapSentences|textAutoCorrect|textMultiLine|textShortMessage"
+                android:maxHeight="180.0dip"
+                android:minHeight="38.0dip"
+                android:singleLine="false"
+                android:textColorHint="@color/text_light" />
+
+            <TextView
+                android:id="@+id/btn_rcd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxHeight="80.0dip"
+                android:minHeight="38.0dip"
+                android:textColor="@color/text_light"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/chat_msg_send_btn"
+            style="@style/FooterButton"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/ffb_selector_chat_send" />
+    </LinearLayout>
+
+</LinearLayout>

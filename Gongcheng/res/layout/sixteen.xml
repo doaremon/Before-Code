@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/all_bg"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sub_title_bg" >
+
+        <ImageButton
+            android:id="@+id/zixundingdanhoutui123"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@drawable/sub_title_back_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="31dp"
+            android:layout_weight="0.74"
+            android:gravity="center"
+            android:text="咨询订单"
+            android:textColor="#fffffb" />
+    </LinearLayout>
+        <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_bg" >
+
+        <EditText
+            android:id="@+id/srzixundingdan_EditText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/zixundingdanchaxunbutton"
+            android:background="@drawable/all_search_et_bg"
+            android:hint="请点击输入订单日期"
+            android:paddingLeft="30dp" />
+
+        <Button
+            android:id="@+id/zixundingdanchaxunbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/search_btn_noraml"
+            android:text="查询"
+            android:textColor="#426ab3" />
+    </RelativeLayout>
+     <ListView 
+        android:id="@+id/zixundingdanListView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+         android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:dividerHeight="10dp"
+        android:divider="@null"
+        android:layout_gravity="center_vertical"
+        android:listSelector="@android:color/transparent"
+        
+        ></ListView>
+        
+</LinearLayout>

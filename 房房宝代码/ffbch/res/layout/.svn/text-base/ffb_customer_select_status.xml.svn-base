@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pubsub_info_body"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pubsub_info_body"
+        android:orientation="vertical"
+        android:padding="2.0dip" >
+
+        <RelativeLayout
+            style="@style/setting_section_style"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/ffb_btn_white2_top" >
+
+            <TextView
+                android:id="@+id/customer_all"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="所有报备"
+                android:textColor="#ff157efb"
+                android:textSize="22.0sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ffb_arrow_ico_nor"
+                android:contentDescription="" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/list_divider" />
+
+        <RelativeLayout
+            style="@style/setting_section_style"
+            android:background="@drawable/ffb_btn_white2_top" >
+
+            <TextView
+                android:id="@+id/customer_report"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="报备成功"
+                android:textColor="#ff157efb"
+                android:textSize="22.0sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ffb_arrow_ico_nor"
+                android:contentDescription="" />
+        </RelativeLayout>
+
+        <include layout="@layout/ffb_divider1" />
+
+        <RelativeLayout
+            style="@style/setting_section_style"
+            android:background="@drawable/ffb_btn_white2_top" >
+
+            <TextView
+                android:id="@+id/customer_verify"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="已经验证"
+                android:textColor="#ff157efb"
+                android:textSize="22.0sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ffb_arrow_ico_nor"
+                android:contentDescription="" />
+        </RelativeLayout>
+
+        <include layout="@layout/ffb_divider1" />
+
+        <RelativeLayout
+            style="@style/setting_section_style"
+            android:background="@drawable/ffb_btn_white2_top" >
+
+            <TextView
+                android:id="@+id/customer_receivce"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="已经接待"
+                android:textColor="#ff157efb"
+                android:textSize="22.0sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ffb_arrow_ico_nor"
+                android:contentDescription="" />
+        </RelativeLayout>
+
+        <include layout="@layout/ffb_divider1" />
+
+        <RelativeLayout
+            style="@style/setting_section_style"
+            android:background="@drawable/ffb_btn_white2_top" >
+
+            <TextView
+                android:id="@+id/customer_show"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="已经看房"
+                android:textColor="#ff157efb"
+                android:textSize="22.0sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ffb_arrow_ico_nor"
+                android:contentDescription="" />
+        </RelativeLayout>
+
+        <include layout="@layout/ffb_divider1" />
+
+        <RelativeLayout
+            style="@style/setting_section_style"
+            android:background="@drawable/ffb_btn_white2_top" >
+
+            <TextView
+                android:id="@+id/customer_purchase"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="申购"
+                android:textColor="#ff157efb"
+                android:textSize="22.0sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ffb_arrow_ico_nor"
+                android:contentDescription="" />
+        </RelativeLayout>
+
+        <include layout="@layout/ffb_divider1" />
+
+        <RelativeLayout
+            style="@style/setting_section_style"
+            android:background="@drawable/ffb_btn_white2_top" >
+
+            <TextView
+                android:id="@+id/customer_strike"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="成交"
+                android:textColor="#ff157efb"
+                android:textSize="22.0sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ffb_arrow_ico_nor"
+                android:contentDescription="" />
+        </RelativeLayout>
+
+        <include layout="@layout/ffb_divider1" />
+
+        <RelativeLayout
+            style="@style/setting_section_style"
+            android:background="@drawable/ffb_btn_white2_top" >
+
+            <TextView
+                android:id="@+id/customer_accounting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="申请结佣"
+                android:textColor="#ff157efb"
+                android:textSize="22.0sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ffb_arrow_ico_nor"
+                android:contentDescription="" />
+        </RelativeLayout>
+
+        <include layout="@layout/ffb_divider1" />
+
+        <RelativeLayout
+            style="@style/setting_section_style"
+            android:background="@drawable/ffb_btn_white2_top" >
+
+            <TextView
+                android:id="@+id/customer_accounted"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="结佣"
+                android:textColor="#ff157efb"
+                android:textSize="22.0sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ffb_arrow_ico_nor"
+                android:contentDescription="" />
+        </RelativeLayout>
+
+        <include layout="@layout/ffb_divider1" />
+
+        <RelativeLayout
+            style="@style/setting_section_style"
+            android:background="@drawable/ffb_btn_white2_top" >
+
+            <TextView
+                android:id="@+id/customer_del"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="已经作废"
+                android:textColor="#ff157efb"
+                android:textSize="22.0sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ffb_arrow_ico_nor"
+                android:contentDescription="" />
+        </RelativeLayout>
+
+        <include layout="@layout/ffb_divider1" />
+    </LinearLayout>
+
+</ScrollView>

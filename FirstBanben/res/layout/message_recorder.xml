@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SurfaceView
+        android:id="@+id/sv_camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" >
+    </SurfaceView>
+
+    <ImageView
+        android:id="@+id/iv_start"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/icon"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon_player_rec" />
+
+    <ImageView
+        android:id="@+id/iv_stop"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/icon"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon_player_stop"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="20dp"
+        android:contentDescription="@string/icon"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon_player_finishs" />
+
+</RelativeLayout>

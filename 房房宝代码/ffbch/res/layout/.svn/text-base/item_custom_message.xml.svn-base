@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/messagecontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minLines="1"
+        android:textSize="18sp"
+         android:layout_margin="3dip"
+         android:paddingLeft="13dip"
+        android:text="客户已经被开发:客户李伟（13232370156）山水之间 接受这个客户。。。。。。。。" />
+
+    <TextView
+        android:id="@+id/createtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dip"
+        android:paddingLeft="13dip"
+        android:singleLine="true"
+        android:text="09月21日 16:22" />
+    
+	<include layout="@layout/ffb_divider_left"/>
+</LinearLayout>

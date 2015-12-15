@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/trend_list_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ffb_actionbar_header" />
+
+    <include layout="@layout/ffb_divider1" />
+
+    <LinearLayout
+        android:id="@id/activity_gender_male"
+        style="@style/setting_section_style"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/setting_margin_left" >
+
+        <TextView
+            style="@style/setting_left"
+            android:text="男" />
+
+        <ImageView
+            android:id="@+id/iv_setting_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/setting_margin_right"
+            android:src="@drawable/ffb_cityselect1"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <include layout="@layout/ffb_divider_left" />
+
+    <LinearLayout
+        android:id="@id/activity_gender_female"
+        style="@style/setting_section_style"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/setting_left"
+            android:text="女" />
+
+        <ImageView
+            android:id="@+id/iv_setting_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/setting_margin_right"
+            android:src="@drawable/ffb_cityselect1" 
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <include layout="@layout/ffb_divider1" />
+
+</LinearLayout>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<resources>
+    
+<!--     <attr name="vpiCirclePageIndicatorStyle" format="reference" /> -->
+<!--     <attr name="vpiIconPageIndicatorStyle" format="reference" /> -->
+<!--     <attr name="vpiLinePageIndicatorStyle" format="reference" /> -->
+<!--     <attr name="vpiTitlePageIndicatorStyle" format="reference" /> -->
+<!--     <attr name="vpiTabPageIndicatorStyle" format="reference" /> -->
+<!--     <attr name="vpiUnderlinePageIndicatorStyle" format="reference" /> -->
+<!--     <attr name="centered" format="boolean" /> -->
+<!--     <attr name="selectedColor" format="color" /> -->
+<!--     <attr name="strokeWidth" format="dimension" /> -->
+<!--     <attr name="unselectedColor" format="color" /> -->
+<!--     <attr name="fillColor" format="color" /> -->
+<!--     <attr name="pageColor" format="color" /> -->
+<!--     <attr name="radius" format="dimension" /> -->
+<!--     <attr name="snap" format="boolean" /> -->
+<!--     <attr name="strokeColor" format="color" /> -->
+<!--     <attr name="lineWidth" format="dimension" /> -->
+<!--     <attr name="gapWidth" format="dimension" /> -->
+<!--     <attr name="clipPadding" format="dimension" /> -->
+<!--     <attr name="footerColor" format="color" /> -->
+<!--     <attr name="footerLineHeight" format="dimension" /> -->
+<!--     <attr name="footerIndicatorStyle"> -->
+<!--         <enum name="none" value="0" /> -->
+<!--         <enum name="triangle" value="1" /> -->
+<!--         <enum name="underline" value="2" /> -->
+<!--     </attr> -->
+<!--     <attr name="footerIndicatorHeight" format="dimension" /> -->
+<!--     <attr name="footerIndicatorUnderlinePadding" format="dimension" /> -->
+<!--     <attr name="footerPadding" format="dimension" /> -->
+<!--     <attr name="linePosition"> -->
+<!--         <enum name="bottom" value="0" /> -->
+<!--         <enum name="top" value="1" /> -->
+<!--     </attr> -->
+<!--     <attr name="selectedBold" format="boolean" /> -->
+<!--     <attr name="titlePadding" format="dimension" /> -->
+<!--     <attr name="topPadding" format="dimension" /> -->
+<!--     <attr name="fades" format="boolean" /> -->
+<!--     <attr name="fadeDelay" format="integer" /> -->
+<!--     <attr name="fadeLength" format="integer" /> -->
+<!--     <attr name="ptrRefreshableViewBackground" format="reference|color" /> -->
+<!--     <attr name="ptrHeaderBackground" format="reference|color" /> -->
+<!--     <attr name="ptrHeaderTextColor" format="reference|color" /> -->
+<!--     <attr name="ptrHeaderSubTextColor" format="reference|color" /> -->
+<!--     <attr name="ptrMode"> -->
+<!--         <flag name="disabled" value="0x00000000" /> -->
+<!--         <flag name="pullFromStart" value="0x00000001" /> -->
+<!--         <flag name="pullFromEnd" value="0x00000002" /> -->
+<!--         <flag name="both" value="0x00000003" /> -->
+<!--         <flag name="manualOnly" value="0x00000004" /> -->
+<!--         <flag name="pullDownFromTop" value="0x00000001" /> -->
+<!--         <flag name="pullUpFromBottom" value="0x00000002" /> -->
+<!--     </attr> -->
+<!--     <attr name="ptrShowIndicator" format="reference|boolean" /> -->
+<!--     <attr name="ptrDrawable" format="reference" /> -->
+<!--     <attr name="ptrDrawableStart" format="reference" /> -->
+<!--     <attr name="ptrDrawableEnd" format="reference" /> -->
+<!--     <attr name="ptrOverScroll" format="reference|boolean" /> -->
+<!--     <attr name="ptrHeaderTextAppearance" format="reference" /> -->
+<!--     <attr name="ptrSubHeaderTextAppearance" format="reference" /> -->
+<!--     <attr name="ptrAnimationStyle"> -->
+<!--         <flag name="rotate" value="0x00000000" /> -->
+<!--         <flag name="flip" value="0x00000001" /> -->
+<!--     </attr> -->
+<!--     <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean" /> -->
+<!--     <attr name="ptrListViewExtrasEnabled" format="reference|boolean" /> -->
+<!--     <attr name="ptrRotateDrawableWhilePulling" format="reference|boolean" /> -->
+<!--     <attr name="ptrAdapterViewBackground" format="reference|color" /> -->
+<!--     <attr name="ptrDrawableTop" format="reference" /> -->
+<!--     <attr name="ptrDrawableBottom" format="reference" /> -->
+<!--     <attr name="border_width" format="dimension" /> -->
+<!--     <attr name="border_color" format="color" /> -->
+<!--     <attr name="minTextSize" format="dimension" /> -->
+<!--     <attr name="precision" format="float" /> -->
+<!--     <attr name="sizeToFit" format="boolean" /> -->
+    
+    
+    <!--  -->
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference"/>
+        <!-- Style of the icon indicator's views. -->
+        <attr name="vpiIconPageIndicatorStyle" format="reference"/>
+        <!-- Style of the line indicator. -->
+        <attr name="vpiLinePageIndicatorStyle" format="reference"/>
+        <!-- Style of the title indicator. -->
+        <attr name="vpiTitlePageIndicatorStyle" format="reference"/>
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference"/>
+        <attr name="vpiTabPageIndicatorStyleLayout" format="reference"/>
+        <!-- Style of the underline indicator. -->
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference"/>
+    </declare-styleable>
+
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation"/>
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+
+    <declare-styleable name="LinePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the unselected lines that represent the pages. -->
+        <attr name="unselectedColor" />
+        <!-- Color of the selected line that represents the current page. -->
+        <attr name="selectedColor" />
+        <!-- Width of each indicator line. -->
+        <attr name="lineWidth" format="dimension" />
+        <!-- Width of each indicator line's stroke. -->
+        <attr name="strokeWidth" />
+        <!-- Width of the gap between each indicator line. -->
+        <attr name="gapWidth" format="dimension" />
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+
+    <declare-styleable name="TitlePageIndicator">
+        <!-- Screen edge padding. -->
+        <attr name="clipPadding" format="dimension" />
+        <!-- Color of the footer line and indicator. -->
+        <attr name="footerColor" format="color" />
+        <!-- Height of the footer line. -->
+        <attr name="footerLineHeight" format="dimension" />
+        <!-- Style of the indicator. Default is triangle. -->
+        <attr name="footerIndicatorStyle">
+            <enum name="none" value="0" />
+            <enum name="triangle" value="1" />
+            <enum name="underline" value="2" />
+        </attr>
+        <!-- Height of the indicator above the footer line. -->
+        <attr name="footerIndicatorHeight" format="dimension" />
+        <!-- Left and right padding of the underline indicator. -->
+        <attr name="footerIndicatorUnderlinePadding" format="dimension" />
+        <!-- Padding between the bottom of the title and the footer. -->
+        <attr name="footerPadding" format="dimension" />
+        <!-- Position of the line. -->
+        <attr name="linePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr>
+        <!-- Color of the selected title. -->
+        <attr name="selectedColor" />
+        <!-- Whether or not the selected item is displayed as bold. -->
+        <attr name="selectedBold" format="boolean" />
+        <!-- Color of regular titles. -->
+        <attr name="android:textColor" />
+        <!-- Size of title text. -->
+        <attr name="android:textSize" />
+        <!-- Padding between titles when bumping into each other. -->
+        <attr name="titlePadding" format="dimension" />
+        <!-- Padding between titles and the top of the View. -->
+        <attr name="topPadding" format="dimension" />
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+
+    <declare-styleable name="UnderlinePageIndicator">
+        <!-- Whether or not the selected indicator fades. -->
+        <attr name="fades" format="boolean" />
+        <!-- Length of the delay to fade the indicator. -->
+        <attr name="fadeDelay" format="integer" />
+        <!-- Length of the indicator fade to transparent. -->
+        <attr name="fadeLength" format="integer" />
+        <!-- Color of the selected line that represents the current page. -->
+        <attr name="selectedColor" />
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+    
+    <declare-styleable name="selecttitle">
+        <attr name="title" format="string" />
+    </declare-styleable>
+    
+      <declare-styleable name="MySwitch">
+        <!-- Drawable to use as the "thumb" that switches back and forth. -->
+        <attr name="thumb"  format="reference"/>
+        <!-- Drawable to use as the "track" that the switch thumb slides within. -->
+        <attr name="track" format="reference" />
+        <!-- Text to use when the switch is in the checked/"on" state. -->
+        <attr name="textOn" format="reference|string" />
+        <!-- Text to use when the switch is in the unchecked/"off" state. -->
+        <attr name="textOff" format="reference|string" />
+        
+        <!-- drawablw to use when the switch is in the checked/"on" state. -->
+        <attr name="drawableOn" format="reference" />
+        <!-- drawablw to use when the switch is in the unchecked/"off" state. -->
+        <attr name="drawableOff" format="reference" />
+        
+        <!-- if the switch should operate like iOS UISwitch -->
+        <attr name="pushStyle" format="boolean" />
+        <!-- if text should be drawn on the Thumb or On the track. -->
+        <attr name="textOnThumb" format="boolean" />
+        <!-- if the thumb should be allowed to move more beyond the switch boundaries -->
+        <attr name="thumbExtraMovement" format="dimension" />
+        <!-- Amount of padding on either side of text within the switch thumb. -->
+        <attr name="thumbTextPadding" format="dimension" />
+        <!-- Amount of padding on either side of text within the switch track. -->
+        <attr name="trackTextPadding" format="dimension" />
+        <!-- TextAppearance style for text displayed on the switch thumb. -->
+        <attr name="switchTextAppearanceAttrib" format="reference" />
+        <!-- Minimum width for the switch component -->
+        <attr name="switchMinWidth" format="dimension" />
+        <!-- Minimum height for the switch component -->
+        <attr name="switchMinHeight" format="dimension" />
+        <!-- Minimum space between the switch and caption text -->
+        <attr name="switchPadding" format="dimension" />
+        
+        <attr name="orientation" >
+            <!-- the switch moves only on the x-axis(horizontally) -->
+            <enum name="horizontal" value="1" />
+            <!-- the switch moves only on the y-axis(vertically) -->
+            <enum name="vertical" value="0" />
+        </attr>
+        
+        <!-- the track drawable will be drawn on top of these background. So if
+             these back grounds were to be visible, the track has to have transparency -->
+        <!-- The background when left side of the switch is visible -->
+        <attr name="leftBackground" format="reference"/>
+        
+        <!-- The background when right side of the switch is visible -->
+        <attr name="rightBackground" format="reference"/>
+        
+        <!-- We need a mask drawable to mask the background, then draw the track -->
+        <attr name="backgroundMask" format="reference"/>
+    </declare-styleable>
+    
+    <declare-styleable name="mySwitchTextAppearanceAttrib">
+        <!-- Text color. -->
+        <attr name="textColor" format="color" />
+        <!-- Size of the text. Recommended dimension type for text is "sp" for scaled-pixels (example: 15sp). -->
+        <attr name="textSize"  format="dimension" />
+        <!-- Style (bold, italic, bolditalic) for the text. -->
+        <attr name="textStyle" >
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        
+        <!-- Typeface (normal, sans, serif, monospace) for the text. -->
+        <attr name="typeface" format="reference">
+            <enum name="normal" value="0" />
+            <enum name="sans" value="1" />
+            <enum name="serif" value="2" />
+            <enum name="monospace" value="3" />
+        </attr>
+        <!-- Color of the text selection highlight. -->
+        <attr name="textColorHighlight" format="color" />
+        <!-- Color of the hint text. -->
+        <attr name="textColorHint" format="color" />
+        <!-- Color of the links. -->
+        <attr name="textColorLink" format="color" />
+        <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
+        <attr name="textAllCaps" format="boolean" />
+    </declare-styleable>
+    <!-- Default style for the Switch widget. -->
+    <attr name="mySwitchStyleAttr" format="reference" />
+</resources>

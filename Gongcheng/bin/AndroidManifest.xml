@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gongcheng"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+       
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.gongcheng.MainActivity"
+            android:label="@string/app_name" >
+           
+        </activity>
+         <activity
+            android:name="com.example.gongcheng.FiveActivity"
+            android:label="@string/app_name" >
+          
+        </activity>
+         <activity
+            android:name="com.example.gongcheng.FirstActivity"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.example.gongcheng.FourActivity"
+            android:label="@string/app_name" >
+             
+        </activity>
+        <activity
+            android:name="com.example.gongcheng.SixActivlty"
+            android:label="@string/app_name" >
+             
+        </activity>
+        <activity
+            android:name="com.example.gongcheng.SevenActivity"
+            android:label="@string/app_name" >
+            
+            
+        </activity>
+         <activity
+            android:name="com.example.gongcheng.TanActivity"
+            android:label="@string/app_name" >
+              
+        </activity>
+        <activity
+            android:name="com.example.gongcheng.NiceActivity"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.gongcheng.FlashActivity"
+            android:label="@string/app_name" >
+              <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+             
+        </activity>
+         <activity
+            android:name="com.example.gongcheng.ceshi"
+            android:label="@string/app_name" >
+             
+        </activity>
+        <activity
+            android:name="com.example.gongcheng.ElevenActivity"
+            android:label="@string/app_name" >
+             
+        </activity>
+        <activity
+            android:name="com.example.gongcheng.FourteenActivity"
+            android:label="@string/app_name" >
+             
+        </activity>
+        <activity
+            android:name="com.example.gongcheng.SixteenActivity"
+            android:label="@string/app_name" >
+             
+        </activity>
+         <activity
+            android:name="com.example.gongcheng.EighteenActivity"
+            android:label="@string/app_name" >
+             
+        </activity>
+        <activity
+            android:name="com.example.gongcheng.TwentyActivity_persion"
+            android:label="@string/app_name" >
+             
+        </activity>
+         <activity
+            android:name="com.example.gongcheng.Twenty_one_persion"
+            android:label="@string/app_name" >
+             
+        </activity>
+         <activity
+            android:name="com.example.gongcheng.Twenty_two_persionActivity"
+            android:label="@string/app_name" >
+             
+        </activity>
+        <activity
+            android:name="com.example.gongcheng.Twenty_three_persionActivity"
+            android:label="@string/app_name" >
+             
+        </activity>
+        <activity
+            android:name="com.example.gongcheng.Twenty_four_persionActivity"
+            android:label="@string/app_name" >
+             
+        </activity>
+        <activity
+            android:name="com.example.gongcheng.Twenty_Mima_persion"
+            android:label="@string/app_name" >
+             
+        </activity>
+        <activity
+            android:name="com.example.gongcheng.Twenty_fankui_persion"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.example.gongcheng.Twenty_zigexiugai_persion"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.example.gongcheng.Twenty_feiyong_persion"
+            android:label="@string/app_name" >
+            
+        </activity>
+    </application>
+
+</manifest>

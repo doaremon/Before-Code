@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/http
+END
+SerializableCookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/http/SerializableCookie.java
+END
+BinaryHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/http/BinaryHttpResponseHandler.java
+END
+RetryHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/http/RetryHandler.java
+END
+AsyncHttpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/http/AsyncHttpRequest.java
+END
+JsonHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/http/JsonHttpResponseHandler.java
+END
+PersistentCookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SmartHome/!svn/ver/557/src/com/u4/home/http/PersistentCookieStore.java
+END
+SimpleMultipartEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/http/SimpleMultipartEntity.java
+END
+AsyncHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/SmartHome/!svn/ver/557/src/com/u4/home/http/AsyncHttpResponseHandler.java
+END
+SyncHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/http/SyncHttpClient.java
+END
+AsyncHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/http/AsyncHttpClient.java
+END
+RequestParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/http/RequestParams.java
+END

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+<include layout="@layout/ffb_actionbar_header" />
+    <ImageView
+        android:id="@+id/my_qrcode_img"
+        android:layout_width="225.0dip"
+        android:layout_height="225.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150.0dip"
+        android:scaleType="fitXY" />
+
+<!--     <TextView -->
+<!--         android:id="@+id/my_username" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@id/my_qrcode_img" -->
+<!--         android:layout_marginTop="10.0dip" -->
+<!--         android:gravity="center_horizontal" -->
+<!--         android:text="让好友扫描此二维码或把链接发给对方" -->
+<!--         android:textColor="@color/head_button_text" -->
+<!--         android:textSize="17.0sp" /> -->
+
+<!--     <TextView -->
+<!--         android:id="@+id/myself_phone" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@id/my_username" -->
+<!--         android:gravity="center_horizontal" -->
+<!--         android:text="即可下载安装,还能拿积分哦！" -->
+<!--         android:textColor="@color/head_button_text" -->
+<!--         android:textSize="17.0sp" /> -->
+
+</RelativeLayout>

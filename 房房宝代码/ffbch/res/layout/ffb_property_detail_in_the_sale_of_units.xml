@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llunits"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View style="@style/line_style" />
+
+    <TextView
+        android:id="@id/tvAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/trend_list_bg"
+        android:padding="10.0dip"
+        android:text="在售户型"
+        android:textColor="@color/head_button_text"
+        android:textSize="@dimen/detail_tag_diver" />
+    <!-- <include layout="@layout/cooperative_apartment_item"/> -->
+
+    <View style="@style/line_style" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ffb_bg_kapian"
+        android:gravity="left|center"
+        android:minHeight="@dimen/min_area_action"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@id/llInTheSaleOfUnits"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@id/llSeeMore"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <!-- android:layout_marginLeft="@dimen/gap" -->
+            <!-- android:layout_marginRight="@dimen/gap" -->
+
+            <View style="@style/line_style" />
+
+            <ToggleButton
+                android:id="@id/tbhuxingOpenClose"
+                style="@style/block_open_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8.0dip"
+                android:layout_marginTop="8.0dip"
+                android:paddingTop="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

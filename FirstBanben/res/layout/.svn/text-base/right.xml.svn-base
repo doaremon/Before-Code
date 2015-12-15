@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/bg_bottom"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btn_nav_home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/icon_nav_home" />
+
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/btn_nav_warning"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/icon_nav_shield" />
+
+        <ImageView
+            android:id="@+id/iv_new_warning"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/bg_new_number"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_new_warning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/int_zero"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/btn_nav_mail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/icon_nav_mail" />
+
+        <ImageView
+            android:id="@+id/iv_new_mail"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/bg_new_number"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_new_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/int_zero"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_nav_manager"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/icon_nav_people" />
+
+    <Button
+        android:id="@+id/btn_nav_setting"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/icon_nav_setting" />
+
+</LinearLayout>

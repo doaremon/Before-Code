@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/list_background"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/list_group_single"
+        android:text="@string/defence_setting" />
+
+    <ListView
+        android:id="@+id/lv_list"
+        style="@style/list_view"
+        android:focusable="false"
+        android:listSelector="@color/transparent" />
+
+</LinearLayout>

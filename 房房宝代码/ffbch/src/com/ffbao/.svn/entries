@@ -1,0 +1,95 @@
+10
+
+dir
+278
+svn://192.168.1.61/android/ffbclient/src/com/ffbao
+svn://192.168.1.61/android
+
+
+
+2014-12-04T09:49:47.043996Z
+278
+chao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ce625fcf-bb95-4d07-821d-36c89fb14ab5
+
+APP.java
+file
+338
+
+
+
+2015-02-06T07:00:50.947271Z
+3d9e6935be9a4ce9e9cd7b6d1a53b6c4
+2015-03-09T05:45:48.284742Z
+338
+chao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12091
+
+update
+dir
+
+baidu
+dir
+
+engine
+dir
+
+net
+dir
+
+download
+dir
+
+view
+dir
+
+activity
+dir
+
+entity
+dir
+
+ui
+dir
+
+util
+dir
+
+exception
+dir
+

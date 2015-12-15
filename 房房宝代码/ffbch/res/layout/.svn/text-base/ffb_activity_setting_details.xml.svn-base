@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/pubsub_info_body"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ffb_actionbar_header" />
+
+    <!-- <ScrollView -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:background="@color/bg_content" -->
+    <!-- android:scrollbars="none" > -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_detials_header"
+            style="@style/user_info_item"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/tv_header_title"
+                style="@style/user_info_item_name"
+                android:text="头像" />
+
+            <ImageView
+                android:id="@+id/iv_header_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ffb_common_right_arrow" />
+
+            <ImageView
+                android:id="@+id/iv_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/iv_header_arrow"
+                android:layout_toRightOf="@id/tv_header_title"
+                android:background="@drawable/ffb_common_contact_info_avatar" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="@color/bg_content" />
+
+        <RelativeLayout
+            android:id="@+id/rl_details_name"
+            style="@style/user_info_item"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/tv_name_title"
+                style="@style/user_info_item_name"
+                android:text="真实姓名" />
+
+            <ImageView
+                android:id="@+id/iv_name_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ffb_common_right_arrow" />
+
+            <TextView
+                android:id="@+id/tv_name_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/iv_name_arrow"
+                android:layout_toRightOf="@id/tv_name_title"
+                android:text="史东东" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="@color/bg_content" />
+
+        <RelativeLayout
+            android:id="@+id/rl_details_sex"
+            style="@style/user_info_item"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/tv_sex_title"
+                style="@style/user_info_item_name"
+                android:text="性别" />
+
+            <ImageView
+                android:id="@+id/iv_sex_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ffb_common_right_arrow" />
+
+            <TextView
+                android:id="@+id/tv_sex_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/iv_sex_arrow"
+                android:layout_toRightOf="@id/tv_sex_title"
+                android:text="男" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="@color/bg_content" />
+
+        <RelativeLayout
+            android:id="@+id/rl_details_service"
+            style="@style/user_info_item"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/tv_service_title"
+                style="@style/user_info_item_name"
+                android:text="服务宣言" />
+
+            <ImageView
+                android:id="@+id/iv_service_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ffb_common_right_arrow" />
+
+            <TextView
+                android:id="@+id/tv_service_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/iv_service_arrow"
+                android:layout_toRightOf="@id/tv_service_title"
+                android:text="人人人嫩肉呢让嫩肉嫩肉" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+
+        <RelativeLayout
+            android:id="@+id/rl_details_phone"
+            style="@style/user_info_item"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/tv_phone_title"
+                style="@style/user_info_item_name"
+                android:text="修改绑定手机" />
+
+            <ImageView
+                android:id="@+id/iv_phone_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ffb_common_right_arrow" />
+
+            <TextView
+                android:id="@+id/tv_phone_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/iv_phone_arrow"
+                android:layout_toRightOf="@id/tv_phone_title"
+                android:text="11020112120" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="@color/bg_content" />
+
+        <RelativeLayout
+            android:id="@+id/rl_details_store"
+            style="@style/user_info_item"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/tv_store_title"
+                style="@style/user_info_item_name"
+                android:text="修改门店码" />
+
+            <ImageView
+                android:id="@+id/iv_store_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ffb_common_right_arrow" />
+
+            <TextView
+                android:id="@+id/tv_store_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/iv_store_arrow"
+                android:layout_toRightOf="@id/tv_store_title"
+                android:text="北京分公司朝阳店" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="@color/bg_content" />
+
+        <RelativeLayout
+            android:id="@+id/rl_details_password"
+            style="@style/user_info_item"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/tv_service_password"
+                style="@style/user_info_item_name"
+                android:text="修改密码" />
+
+            <ImageView
+                android:id="@+id/iv_password_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ffb_common_right_arrow" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!-- </ScrollView> -->
+
+</LinearLayout>

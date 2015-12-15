@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/trend_list_bg"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/contacts_firstShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    
+    <TextView
+        android:id="@+id/contacts_nextShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/contacts_firstShow"
+        android:layout_alignBottom="@+id/contacts_firstShow"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/contacts_firstShow"
+        android:text="TextView" />
+
+	<ImageView
+	    android:layout_width="fill_parent"
+	    android:layout_height="1.0dip"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/contacts_firstShow"
+	    android:layout_marginTop="3dp"
+	    android:src="@android:color/darker_gray" />
+    
+</RelativeLayout>

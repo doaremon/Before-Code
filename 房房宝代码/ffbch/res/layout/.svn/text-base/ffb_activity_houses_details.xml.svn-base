@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pubsub_info_body"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ffb_actionbar_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/ffb_property_detail_photo_header" />
+
+            <include layout="@layout/ffb_property_detail_news" />
+
+            <include layout="@layout/ffb_property_detail_address" />
+
+            <include layout="@layout/ffb_property_detail_customer" />
+
+            <include layout="@layout/ffb_property_detail_cooperation_rules" />
+
+            <include layout="@layout/ffb_property_detail_site_deals" />
+            
+            <include layout="@layout/ffb_property_detail_in_the_sale_of_units" />
+            <!-- 楼房卖点 -->
+
+            <include layout="@layout/ffb_property_detail_selling_real_estate" />
+
+            <include layout="@layout/ffb_property_detail_target_customers" />
+            <!-- 拓客技巧 -->
+
+            <include layout="@layout/ffb_property_detail_extension_off_skills" />
+            <!-- 房房宝支持 -->
+
+            <include layout="@layout/ffb_property_detail_ffd_support" />
+
+            <include layout="@layout/ffb_property_detail_fragment_footer" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

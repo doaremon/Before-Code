@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/trend_list_bg" >
+
+    <FrameLayout
+        android:id="@id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <include layout="@layout/ffb_property_detail_statics_fragment_content" />
+    </FrameLayout>
+    <!-- <include layout="@layout/load_failed_layout1" /> -->
+    <!-- <include layout="@layout/loading_layout1" /> -->
+
+</FrameLayout>

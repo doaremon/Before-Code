@@ -1,0 +1,111 @@
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    
+    <include layout="@layout/ffb_actionbar_header" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="#ffffff" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/welcome_viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </android.support.v4.view.ViewPager>
+
+        <TextView
+            android:id="@id/noData_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="40.0dip"
+            android:drawablePadding="10.0dip"
+            android:gravity="bottom"
+            android:text="暂无信息"
+            android:textColor="@color/black"
+            android:textSize="16.0sp" />
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="480dip"
+            android:layout_height="40dip"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/tveffect"
+                android:layout_width="120dp"
+                android:layout_height="40dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="效果图" />
+
+            <TextView
+                android:id="@+id/tvplan"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="规划图" />
+
+            <TextView
+                android:id="@+id/tvrealistic"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="实景图" />
+
+            <TextView
+                android:id="@+id/tvassort"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="配套图" />
+
+            <TextView
+                android:id="@+id/tvTemplet"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="样板间图" />
+
+            <TextView
+                android:id="@+id/tvhouse"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="户型图" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

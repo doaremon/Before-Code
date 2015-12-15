@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/setting_margin_left" >
+
+    <include layout="@layout/ffb_divider1" />
+
+    <EditText
+        android:id="@id/view_input_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="150.0dip"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:gravity="top"
+        android:maxLength="30"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip"
+        android:paddingTop="5.0dip" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@id/view_input_num"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="right"
+        android:paddingBottom="@dimen/setting_margin_left"
+        android:paddingRight="@dimen/setting_margin_left"
+        android:text="0/30"
+        android:textColor="@color/floor_item_text_gray" />
+
+    <include layout="@layout/ffb_divider1" />
+
+</LinearLayout>

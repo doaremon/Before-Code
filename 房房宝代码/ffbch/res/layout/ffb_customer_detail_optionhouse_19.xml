@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="11.0dip" >
+
+    <View style="@style/line_style" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <ImageView
+            android:id="@id/strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.0dip"
+            android:layout_marginTop="1.0dip" />
+
+        <TextView
+            android:id="@id/tvHouseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20.0sp" />
+
+        <Button
+            android:id="@+id/btnDele"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/ffb_btn_white_green"
+            android:gravity="fill_vertical|center"
+            android:minHeight="30.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:singleLine="true"
+            android:text="作废"
+            android:textColor="@drawable/ffb_text_green_white"
+            android:textSize="18.0sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@id/btnLook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/ffb_btn_white_green"
+            android:gravity="fill_vertical|center"
+            android:minHeight="30.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:text="带看"
+            android:textColor="@drawable/ffb_text_green_white"
+            android:textSize="18.0sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/trend_list_bg" />
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/report_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingTop="12.0dip" >
+
+            <TextView
+                android:id="@id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="剩余保护区"
+                android:textColor="#ffdf4919"
+                android:textSize="14.0sp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.0dip" >
+
+                <LinearLayout
+                    android:id="@id/view_fist"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dip"
+                    android:layout_marginRight="25dip"
+                    android:layout_marginTop="7.0dip"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@id/view_fist_0"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.0"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ffb_line_liucheng" />
+
+                    <ImageView
+                        android:id="@id/view_fist_1"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2.0"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ffb_line_liucheng" />
+
+                    <ImageView
+                        android:id="@id/view_fist_2"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2.0"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ffb_line_liucheng" />
+
+                    <ImageView
+                        android:id="@id/view_fist_3"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2.0"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ffb_line_liucheng" />
+
+                    <ImageView
+                        android:id="@id/view_fist_4"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.0"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ffb_line_liucheng" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/icon_report"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:minWidth="20dip"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_report"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_circle_unused_press" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_report"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:lines="2"
+                            android:text="报备\n成功" />
+
+                        <TextView
+                            android:id="@+id/tv_report"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_verifying"
+                        android:layout_width="15.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_verifying"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_rb_circle_unused"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_verifying"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/tv_verifying"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_verify"
+                        android:layout_width="15.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:minWidth="20dip"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_verify"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_rb_circle_unused"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_verify"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/tv_verify"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_localderive"
+                        android:layout_width="15.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_localderive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_rb_circle_unused"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_localderive"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/tv_localderive"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_lookSigning"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_lookSigning"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_circle_unused_press" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_lookSigning"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="签约\n看房" />
+
+                        <TextView
+                            android:id="@+id/tv_lookSigning"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_bookTicket"
+                        android:layout_width="15.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_bookTicket"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_rb_circle_unused"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_bookTicket"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/tv_bookTicket"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_bookHotel"
+                        android:layout_width="15.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_bookHotel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_rb_circle_unused"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_bookHotel"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/tv_bookHotel"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_receivederive"
+                        android:layout_width="15.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_receivederive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_rb_circle_unused"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_receivederive"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/tv_receivederive"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_receiver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_receiver"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_circle_unused_press" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_receiver"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="已经\n接待" />
+
+                        <TextView
+                            android:id="@+id/tv_receiver"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_look"
+                        android:layout_width="15.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_look"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_rb_circle_unused"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_look"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/tv_look"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_purchase"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_purchase"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_circle_unused_press" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_purchase"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="申购\n" />
+
+                        <TextView
+                            android:id="@+id/tv_purchase"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_purchaseconmfire"
+                        android:layout_width="15.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_purchaseconmfire"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_rb_circle_unused"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_purchaseconmfire"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/tv_purchaseconmfire"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_contractSighed"
+                        android:layout_width="15.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_contractSighed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_rb_circle_unused"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_contractSighed"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/tv_contractSighed"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_payment"
+                        android:layout_width="15.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_payment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_rb_circle_unused"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_payment"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/tv_payment"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_strike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_strike"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_circle_unused_press" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_strike"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="成交\n    " />
+
+                        <TextView
+                            android:id="@+id/tv_strike"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_commission"
+                        android:layout_width="15.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_commission"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_rb_circle_unused"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_commission"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/tv_commission"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_receipt"
+                        android:layout_width="15.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_receipt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_rb_circle_unused"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_receipt"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/tv_receipt"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/icon_accounted"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/btn_icon_accounted"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ffb_circle_unused_press" />
+
+                        <TextView
+                            android:id="@+id/tv_tag_accounted"
+                            style="@style/text_gray_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:text="结佣\n" />
+
+                        <TextView
+                            android:id="@+id/tv_accounted"
+                            style="@style/text_gray_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/reprotid_del"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            style="@style/user_info_item"
+            android:clickable="false" >
+
+            <TextView
+                style="@style/user_info_item_name"
+                android:text="报备单已作废"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View style="@style/line_style" />
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/pubsub_info_body"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ffb_actionbar_header" />
+
+    <LinearLayout
+        android:id="@+id/llcurrentcompany"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <!-- android:visibility="gone" -->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dip"
+            android:text="所属经纪公司："
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_compandName"
+            style="@style/myEditTitleStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dip"
+            android:text="新经纪公司ID："
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ed_store"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/pubsub_info_message"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="立刻绑定" />
+
+        <Button
+            android:id="@+id/del_company"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="解绑经纪公司"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/pubsub_info_follow"
+            style="@style/button_style_white"
+            android:layout_width="match_parent"
+            android:text="以后再说"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/hotline"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="全国热线" />
+    </LinearLayout>
+
+</LinearLayout>

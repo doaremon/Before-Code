@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="55dip"
+    android:background="@null" >
+
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/ffb_iv_loading"
+            android:indeterminateOnly="true"
+            android:minHeight="130.0dip"
+            android:minWidth="130.0dip" 
+            />
+<!--             android:layout_marginRight="20dip" -->
+
+</FrameLayout>

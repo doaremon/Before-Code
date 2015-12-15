@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ffb_actionbar_header" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/bg_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_settings_info"
+                android:layout_width="fill_parent"
+                android:layout_height="130dip"
+                android:background="@drawable/ffb_user_bg"
+                android:padding="15dp" >
+
+                <com.ffbao.ui.widget.RoundImageView
+                    android:id="@+id/contact_userhead_img"
+                    android:layout_width="85dip"
+                    android:layout_height="85dip"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ffb_common_contact_info_avatar" />
+
+                <ImageView
+                    android:id="@+id/contact_userhead_img1"
+                    android:layout_width="85dip"
+                    android:layout_height="85dip"
+                    android:layout_alignParentLeft="true"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/contact_userhead_img"
+                    android:gravity="center_vertical"
+                    android:minHeight="85dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/contact_info_person_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="5dip"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <!-- android:text="liwei"   android:layout_marginTop="3dp" -->
+
+                    <TextView
+                        android:id="@+id/contact_info_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                    <!-- android:text="13312341234" -->
+
+                    <TextView
+                        android:id="@+id/tvLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="35dip"
+                    android:background="@drawable/ffb_icon_zhuye_jiantou" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/list_divider" />
+
+            <LinearLayout
+                android:id="@+id/rl_settings_service"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/list_divider" />
+
+                <RelativeLayout
+                    android:id="@+id/settings_new_msg_attention_btn"
+                    style="@style/user_info_item"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:id="@+id/tv_setting_name_title"
+                        style="@style/user_info_item_name"
+                        android:text="联系经纪服务专员" />
+
+                    <ImageView
+                        android:id="@+id/tv_setting_name_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/ffb_arrow_ico_nor" />
+
+                    <TextView
+                        android:id="@+id/static_phone"
+                        style="@style/user_info_item_name"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="10dip"
+                        android:layout_toLeftOf="@id/tv_setting_name_arrow"
+                        android:layout_toRightOf="@id/tv_setting_name_title"
+                        android:singleLine="true"
+                        android:text="名字" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_setting_feedback"
+                    style="@style/user_info_item" >
+
+                    <TextView
+                        android:id="@+id/static_tel"
+                        style="@style/user_info_item_name"
+                        android:text="我的佣金" />
+
+                    <TextView
+                        android:id="@+id/contact_info_tel"
+                        style="@style/user_info_item_text"
+                        android:layout_toRightOf="@id/static_tel" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/ffb_arrow_ico_nor" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/list_divider" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_setting_version"
+                    style="@style/user_info_item" >
+
+                    <TextView
+                        android:id="@+id/static_Identity"
+                        style="@style/user_info_item_name"
+                        android:text="版本更新" />
+
+                    <ImageView
+                        android:id="@+id/static_Identity_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/ffb_arrow_ico_nor" />
+
+                    <TextView
+                        android:id="@+id/contact_info_identitys"
+                        style="@style/user_info_item_text"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="10dip"
+                        android:layout_toLeftOf="@id/static_Identity_arrow"
+                        android:layout_toRightOf="@id/static_Identity"
+                        android:gravity="right|bottom" />
+                    <!-- android:text="123123" -->
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/list_divider" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_setting_about"
+                    style="@style/user_info_item" >
+
+                    <TextView
+                        android:id="@+id/static_phone"
+                        style="@style/user_info_item_name"
+                        android:text="关于我们" />
+
+                    <TextView
+                        android:id="@+id/contact_info_phone"
+                        style="@style/user_info_item_text"
+                        android:layout_toRightOf="@id/static_phone" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/ffb_arrow_ico_nor" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/list_divider"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_setting_guide"
+                    style="@style/user_info_item"
+                    android:background="@color/white"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/static_phone"
+                        style="@style/user_info_item_name"
+                        android:text="卖新房赚佣金指南" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/ffb_arrow_ico_nor" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_setting_share"
+                    style="@style/user_info_item"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:id="@+id/static_phone"
+                        style="@style/user_info_item_name"
+                        android:text="邀请好友" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/ffb_arrow_ico_nor" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/list_divider" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_setting_hotLine"
+                    style="@style/user_info_item"
+                    android:background="@color/white" >
+
+                    <TextView
+                        android:id="@+id/static_hotLine"
+                        style="@style/user_info_item_name"
+                        android:text="全国客服热线" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/ffb_arrow_ico_nor" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/settings_exit_btn"
+                style="@style/button_style"
+                android:layout_width="fill_parent"
+                android:text="退出登录" />
+            <!-- <Button -->
+            <!-- android:id="@+id/settings_exit_btn" -->
+            <!-- android:layout_width="fill_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_marginBottom="30dp" -->
+            <!-- android:layout_marginLeft="10dp" -->
+            <!-- android:layout_marginRight="10dp" -->
+            <!-- android:layout_marginTop="30dp" -->
+            <!-- android:background="@drawable/btn_orange" -->
+            <!-- android:text="退出登录" -->
+            <!-- android:textColor="@color/white" -->
+            <!-- android:textSize="20dip" /> -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,905 @@
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditActivity" >
+
+    <include layout="@layout/ffb_actionbar_header" />
+	
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10.0dip"
+        android:scrollbars="none"
+        android:layout_marginRight="10.0dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="客户姓名:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#FF0000" />
+				
+                <EditText
+                    android:id="@+id/edit_input_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:hint="姓名"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:text="客户电话:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#FF0000" />
+
+                <TextView
+                    android:id="@+id/edit_input_phone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:maxLines="11"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="意向城市:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dip"
+                    android:gravity="center_vertical"
+                    android:text="*"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#FF0000" />
+
+                <TextView
+                    android:id="@+id/edit_city_intention"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:text="请选择"
+                    android:textAppearance="?android:textAppearanceSmall" />
+                
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+			
+             <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="类型:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+				
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dip"
+                    android:gravity="center_vertical"
+                    android:text="*"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#FF0000" />
+                
+                <TextView
+                    android:id="@+id/edit_buy_kind"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:text="本地"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="30.0dip"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:text="以下内容为选填,但填写越完整,越有利于成交"
+                    android:textColor="#FF9900"
+                    android:textSize="13dp" />
+            </LinearLayout>
+			
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+			
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="行程状态:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+				
+                <TextView
+                    android:id="@+id/edit_go_buff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="7dp"
+                    android:text="待定"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+                
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="意向楼盘:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/edit_houses_intention"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请选择"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="所在城市:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edit_city"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:hint="北京"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="职业:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edit_job"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:hint="职业"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="年龄:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edit_age"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:hint="请在此输入您的年龄"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:text="性别:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <RadioGroup
+                    android:id="@+id/edit_radioGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/edit_sex_man"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:button="@null"
+                        android:checked="true"
+                        android:gravity="center_vertical"
+                        
+                        />
+<!-- android:background="@drawable/select_sex" -->
+                    <RadioButton
+                        android:id="@+id/edit_sex_woman"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_marginLeft="30dp"
+                        android:button="@null"
+                        android:gravity="center_vertical"
+                        
+                         />
+<!--                     android:background="@drawable/select_sex_g" -->
+                </RadioGroup>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="联系地址:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edit_address"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:hint="请在此输入您的联系地址"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="资产情况:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/edit_asset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请选择"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="购房用途:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/edit_buy_use"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请选择"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="购房可能性:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/edit_buy_possibility"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+					android:hint="请选择"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="国家:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edit_country"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:hint="中国"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="预算:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edit_buy_budget"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请输入购房预算"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="出行人数:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edit_people_count"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请输入出行人数"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="出发日期:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/edit_go_day"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请选择出发日期"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="到达日期:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/edit_arrive_day"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请选择到达日期"
+                    android:textAppearance="?android:textAppearanceSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="出行方式:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+				
+                <TextView
+                    android:id="@+id/edit_go_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:text="房房宝安排"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+                
+                <Switch
+                    android:id="@+id/edit_go_mode_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip"
+                    android:paddingLeft="7dp"
+                    android:gravity="center_vertical"
+                    android:textOff="房房宝安排"
+                    android:textOn="自定义行程" />
+            </LinearLayout>
+
+<!--             <ImageView -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                 android:layout_height="1.0dip" -->
+<!--                 android:src="@android:color/darker_gray" /> -->
+
+<!--             <LinearLayout -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                 android:layout_height="fill_parent" -->
+<!--                 android:layout_gravity="center_horizontal" > -->
+
+<!--                 <TextView -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_gravity="center_vertical" -->
+<!--                     android:layout_marginLeft="15dp" -->
+<!--                     android:text="行程状态:" -->
+<!--                     android:textAppearance="?android:textAppearanceSmall" -->
+<!--                     android:textColor="@android:color/black" /> -->
+				
+<!--                 <TextView -->
+<!--                     android:id="@+id/edit_journey" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_gravity="center_vertical" -->
+<!--                     android:layout_marginLeft="3dp" -->
+<!--                     android:text="待定" -->
+<!--                     android:textAppearance="?android:textAppearanceSmall" -->
+<!--                     android:textColor="@android:color/black" /> -->
+                
+<!--                 <Switch -->
+<!--                     android:id="@+id/edit_journey_switch" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="30dip" -->
+<!--                     android:gravity="center_vertical" -->
+<!--                     android:paddingLeft="7dp" -->
+<!--                     android:textOff="待定" -->
+<!--                     android:textOn="确定" /> -->
+<!--             </LinearLayout> -->
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="是否需要定票:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+				
+                <TextView
+                    android:id="@+id/edit_buy_fly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="7dp"
+                    android:text="待定"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+                
+                <RadioGroup
+                    android:id="@+id/edit_radioGroup_buy_fly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/edit_buy_fly0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:button="@null"
+                        android:checked="true"
+                        android:gravity="center_vertical"
+                        android:text="待定"
+                        android:textColor="#000000" />
+
+                    <RadioButton
+                        android:id="@+id/edit_buy_fly1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_marginRight="3dp"
+                        android:button="@null"
+                        android:gravity="center_vertical"
+                        android:text="需要"
+                        android:textColor="#000000" />
+                    
+                    <RadioButton
+                        android:id="@+id/edit_buy_fly2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_marginRight="3dp"
+                        android:button="@null"
+                        android:gravity="center_vertical"
+                        android:text="不需要"
+                        android:textColor="#000000" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="是否需要定购酒店:"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+                
+                <TextView
+                    android:id="@+id/edit_buy_hotel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:text="待定"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+                
+                <RadioGroup
+                    android:id="@+id/edit_radioGroup_buy_hotel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/edit_buy_hotel0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:button="@null"
+                        android:checked="true"
+                        android:gravity="center_vertical"
+                        android:text="待定"
+                        android:textColor="#000000" />
+
+                    <RadioButton
+                        android:id="@+id/edit_buy_hotel1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_marginRight="5dp"
+                        android:button="@null"
+                        android:gravity="center_vertical"
+                        android:text="需要"
+                        android:textColor="#000000" />
+                    
+                    <RadioButton
+                        android:id="@+id/edit_buy_hotel2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_marginRight="5dp"
+                        android:button="@null"
+                        android:gravity="center_vertical"
+                        android:text="不需要"
+                        android:textColor="#000000" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:src="@android:color/darker_gray" />
+			
+            <Button
+                android:id="@+id/edit_houses_submit"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:text="确认编辑报备" />
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

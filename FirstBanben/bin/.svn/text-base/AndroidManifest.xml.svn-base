@@ -1,0 +1,133 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ty.winchat"
+    android:versionCode="2"
+    android:versionName="1.0.2" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS" >
+    </uses-permission>
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- 拍照 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- 录像 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.zhihui.winchat.Appcontext"
+        android:allowBackup="true"
+        android:icon="@drawable/shoyetu"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.zhihui.shouye.Shouye" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zhihui.ui.MessageChat"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.zhihui.ui.Set"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity android:name="com.zhihui.ui.VoiceChat" >
+        </activity>
+        <activity android:name="com.zhihui.ui.VideoChat" >
+        </activity>
+        <activity android:name="com.zhihui.ui.Main" >
+        </activity>
+        <activity android:name="com.zhihui.ui.FileChoose" >
+        </activity>
+        <activity
+            android:name="com.zhihui.ui.RoomChat"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <!-- ====================================对讲通话======================================================== -->
+        <!-- 对讲通信 -->
+        <activity android:name="com.zhihui.shipingtonghua.Shipingtonghuashouye" >
+        </activity>
+        <!-- 呼叫记录 -->
+        <activity android:name="com.zhihui.shipingtonghua.Hujiaojilu" >
+        </activity>
+
+        <!-- 视屏留言 -->
+        <activity android:name="com.zhihui.shipingtonghua.Shipingliuyan" >
+        </activity>
+        <!-- 视屏录制 -->
+        <activity
+            android:name="com.zhihui.shipingtonghua.Shipingluzhi"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- 社区通知 -->
+        <activity android:name="com.zhihui.shipingtonghua.Shequtongzhi" >
+        </activity>
+        <!-- 通话设置 -->
+        <activity android:name="com.zhihui.shipingtonghua.Tonghuashezhi" >
+        </activity>
+        <!-- 数据库demo -->
+        <activity android:name="com.zhihui.shipingtonghua.Shujukudemo" >
+        </activity>
+        <!-- 通话设置允许列表 -->
+        <activity android:name="com.zhihui.shipingtonghua.Tonghuashezhiyunxu" >
+        </activity>
+        <!-- 通话设置允许列表添加 -->
+        <activity android:name="com.zhihui.shipingtonghua.Yunxuliebiaotianjia" >
+        </activity>
+        <!-- 通话设置禁止列表 -->
+        <activity android:name="com.zhihui.shipingtonghua.Tonghuashezhijingzhi" >
+        </activity>
+        <!-- 通话设置禁止列表添加 -->
+        <activity android:name="com.zhihui.shipingtonghua.Jinzhiliebiaotianjia" >
+        </activity>
+
+        <!-- ====================================家电控件======================================================== -->
+        <!-- 家电控件首页 -->
+        <activity android:name="com.zhihui.jiadiankongjian.Jiadiankongjianshouye" >
+        </activity>
+        <!-- 灯光管理 -->
+        <activity android:name="com.zhihui.jiadiankongjian.Dengguangguanli" >
+        </activity>
+        <!-- 灯光管理 添加页面 -->
+        <activity android:name="com.zhihui.jiadiankongjian.Dengguangtianjia" >
+        </activity>
+        <!-- 窗帘管理 -->
+        <activity android:name="com.zhihui.jiadiankongjian.Chuanglianguanli" >
+        </activity>
+        <!-- 窗帘管理 添加-->
+        <activity android:name="com.zhihui.jiadiankongjian.Chuangliantianjia" >
+        </activity>
+        <!-- 开关管理 -->
+        <activity android:name="com.zhihui.jiadiankongjian.Kaiguanguanli" >
+        </activity>
+        <!-- 开关管理   添加页面 -->
+        <activity android:name="com.zhihui.jiadiankongjian.Kaiguantianjia" >
+        </activity>
+        <!-- ====================================服务======================================================== -->
+        <service android:name="com.zhihui.service.ChatService" />
+
+        <receiver android:name="com.zhihui.service.HeartBeatBroaadcastReceiver" >
+        </receiver>
+    </application>
+
+</manifest>

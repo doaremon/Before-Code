@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="reference|color" name="colorDivider"/>
+    <attr format="reference" name="drawableBack"/>
+    <attr format="reference" name="drawableBackgroundDrawerItem"/>
+    <attr format="reference" name="drawableDivider"/>
+    <attr format="reference" name="drawableDividerVertical"/>
+    <attr format="reference" name="drawableGoContents"/>
+    <attr format="reference|color" name="drawableTitlebar"/>
+    <attr format="reference|color" name="segmentTintColor"/>
+    <attr format="reference|color" name="textBookmarkBody_1"/>
+    <attr format="reference|color" name="textBookmarkBody_2"/>
+    <attr format="reference|color" name="textBookmarkBody_3"/>
+    <attr format="reference|color" name="textReaderBody_1"/>
+    <attr format="reference|color" name="textReaderBody_2"/>
+    <attr format="reference|color" name="textReaderBody_3"/>
+    <attr format="reference|color" name="textReaderBody_4"/>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values/bools.xml -->
+    <eat-comment/>
+    <bool name="gridClipToPadding">false</bool>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background">@color/color_2a2e36</color>
+    <color name="background_titlebar">#efefef</color>
+    <color name="background_titlebar_night">@color/color_494f5a</color>
+    <color name="background_white">@android:color/white</color>
+    <color name="color_00695c">#ff838b69</color>
+    <color name="color_2a2e36">#FF2a2e36</color>
+    <color name="color_434853">#434853</color>
+    <color name="color_494f5a">#494f5a</color>
+    <color name="color_5f382e">#5f382e</color>
+    <color name="color_5fb7e7">#FF5FB7E7</color>
+    <color name="color_757677">#FF757677</color>
+    <color name="color_795548">#3c384b</color>
+    <color name="color_929292">#FF929292</color>
+    <color name="color_a9a9a9">#FFA9A9A9</color>
+    <color name="color_bbbbbb">#ffbbbbbb</color>
+    <color name="color_c7c6c6">#c7c6c6</color>
+    <color name="color_efefef">#efefef</color>
+    <color name="color_f1b3bc">#ffa97f56</color>
+    <color name="color_ffe0b2">#ffb19080</color>
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">@android:color/transparent</color>
+    <declare-styleable name="AnyTextView"><attr format="string" name="typeface"/></declare-styleable>
+    <declare-styleable name="ReaderTitlebar"><attr format="string" name="readerTitlebarTitle"/><attr format="string" name="readerTitlebarLeftText"/><attr format="reference" name="readerTitlebarLeftIcon"/><attr format="reference" name="readerTitlebarRightIcon"/><attr format="string" name="readerTitlebarRightText"/></declare-styleable>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values/ambilwarna_dimen.xml -->
+    <eat-comment/>
+    <dimen name="ambilwarna_hsvHeight">240dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">240dp</dimen>
+    <dimen name="ambilwarna_hueWidth">30dp</dimen>
+    <dimen name="ambilwarna_spacer">8dp</dimen>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="default_padding">8dp</dimen>
+    <dimen name="divider_height">0.1dp</dimen>
+    <dimen name="inline_padding">4dp</dimen>
+    <dimen name="item_padding">2dp</dimen>
+    <dimen name="l_reader_navigationbar_height">52dp</dimen>
+    <dimen name="l_titlebar_height">52dp</dimen>
+    <dimen name="large_padding">16dp</dimen>
+    <dimen name="list_horizontal_margin">12dp</dimen>
+    <dimen name="list_vertical_margin">20dp</dimen>
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    <dimen name="reader_navigationbar_horizontal_margin">14dp</dimen>
+    <dimen name="text_size_hyperlarge">72sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_ultralarge">32sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+    <dimen name="text_size_xmedium">16sp</dimen>
+    <dimen name="text_size_xsmall">12sp</dimen>
+    <dimen name="text_size_xxsmall">10sp</dimen>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values/integer.xml -->
+    <eat-comment/>
+    <integer name="config_mediumAnimTime">400</integer>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="afternoon">下午</string>
+    <string name="assets_fonts_folder">fonts/</string>
+    <string name="before">前</string>
+    <string name="complete">完成</string>
+    <string name="contents_segmented_bookmark">书签</string>
+    <string name="contents_segmented_catalog">目录</string>
+    <string name="day">天</string>
+    <string name="daybeforeyesterday">前天</string>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values/strings_fbreader.xml -->
+    <eat-comment/>
+    <string name="empty_string"/>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hour">小时</string>
+    <string name="minute">分钟</string>
+    <string name="month">个月</string>
+    <string name="morning">上午</string>
+    <string name="nextstep">下一步</string>
+    <string name="one_year_before">一年前</string>
+    <string name="second">秒</string>
+    <string name="settings_read_animation">翻转动画</string>
+    <string name="settings_read_animation_curl">淡出</string>
+    <string name="settings_read_animation_none">无</string>
+    <string name="settings_read_animation_shift">平移</string>
+    <string name="settings_read_animation_slide">滑动</string>
+    <string name="settings_read_custom">自定义选项</string>
+    <string name="settings_read_custom_brightness">与设备同步</string>
+    <string name="settings_read_custom_firstLineIndent">首行缩进</string>
+    <string name="settings_read_custom_font">字体</string>
+    <string name="settings_read_custom_lineSpacing">行间距</string>
+    <string name="settings_read_custom_marginSpacing">页边间距</string>
+    <string name="settings_read_custom_more">更多阅读设置</string>
+    <string name="settings_read_custom_sectionSpacing">段间距</string>
+    <string name="settings_read_custom_simplified">简体</string>
+    <string name="settings_read_custom_traditional">繁体</string>
+    <string name="settings_read_recently">启动后继续上次阅读</string>
+    <string name="settings_read_screen">阅读界面屏保时间</string>
+    <string name="settings_read_screen_five_minutes">5分钟</string>
+    <string name="settings_read_screen_none">无</string>
+    <string name="settings_read_screen_second_minutes">2分钟</string>
+    <string name="settings_read_screen_ten_minutes">10分钟</string>
+    <string name="titlebar_title_setting_font">字体</string>
+    <string name="titlebar_title_setting_location">设置存储位置</string>
+    <string name="titlebar_title_setting_read">更多阅读设置</string>
+    <string name="titlebar_title_skin_manage">皮肤管理</string>
+    <string name="typeface_not_found">Typeface %s not found, or could not be loaded.
+        Showing default typeface.
+    </string>
+    <string name="week">周</string>
+    <string name="yesterday">昨天</string>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values/styles_fbreader.xml -->
+    <eat-comment/>
+    <style name="FBReader.Activity" parent="android:Theme"/>
+    <style name="FBReader.Dialog" parent="android:Theme.Dialog"/>
+    <style name="FBReader.Transparent" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style mce_bogus="1" name="PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dropdown_down</item>
+        <item name="android:windowExitAnimation">@anim/dropdown_up</item>
+    </style>
+    <style name="RadioButton">
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:minHeight">33dp</item>
+        <item name="android:minWidth">85dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="Theme"/>
+    <style name="Theme.Platform" parent="@android:style/Theme.Light.NoTitleBar"/>
+    <style name="Theme.Reader" parent="@style/Theme.Platform">
+        <item name="android:colorBackground">@color/background_white</item>
+        <item name="android:windowBackground">@color/background_white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- Colors -->
+        <item name="textReaderBody_1">@color/color_929292</item>
+        <item name="textReaderBody_2">@color/color_929292</item>
+        <item name="textReaderBody_3">@color/color_c7c6c6</item>
+        <item name="textReaderBody_4">@color/color_5fb7e7</item>
+        <item name="textBookmarkBody_1">#404040</item>
+        <item name="textBookmarkBody_2">#969591</item>
+        <item name="textBookmarkBody_3">@color/color_929292</item>
+        <item name="colorDivider">@color/color_a9a9a9</item>
+        <item name="segmentTintColor">@color/color_5fb7e7</item>
+
+        <!-- Drawables -->
+        <item name="drawableBack">@drawable/ic_l_back_white</item>
+        <item name="drawableGoContents">@drawable/contents_go</item>
+        <item name="drawableTitlebar">@color/background_titlebar</item>
+        <item name="drawableDivider">@drawable/ll_divider</item>
+        <item name="drawableDividerVertical">@drawable/ll_divider_vertical</item>
+
+    </style>
+    <style name="Theme.Reader.Night" parent="@style/Theme.Platform">
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- Colors -->
+        <item name="textReaderBody_1">@color/color_bbbbbb</item>
+        <item name="textReaderBody_2">@android:color/white</item>
+        <item name="textReaderBody_3">@color/color_494f5a</item>
+        <item name="textReaderBody_4">@color/color_5fb7e7</item>
+        <item name="textBookmarkBody_1">@color/color_bbbbbb</item>
+        <item name="textBookmarkBody_2">@color/color_bbbbbb</item>
+        <item name="textBookmarkBody_3">@color/color_bbbbbb</item>
+        <item name="colorDivider">@color/color_757677</item>
+        <item name="segmentTintColor">@color/color_929292</item>
+
+        <!-- Drawables -->
+        <item name="drawableBack">@drawable/ic_l_back_white</item>
+        <item name="drawableGoContents">@drawable/contents_go_night</item>
+        <item name="drawableTitlebar">@color/background_titlebar_night</item>
+        <item name="drawableDivider">@drawable/ll_divider_night</item>
+        <item name="drawableDividerVertical">@drawable/ll_divider_vertical_night</item>
+
+    </style>
+</resources>

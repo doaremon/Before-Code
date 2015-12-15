@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/trend_list_bg"
+    android:orientation="vertical" >
+<include layout="@layout/ffb_actionbar_header" />
+    <ImageView
+        style="@style/root_padding"
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="103.0dip"
+        android:src="@drawable/launcher_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="22.0dip"
+        android:text="房房宝"
+        android:textColor="@color/head_button_text"
+        android:textSize="15.0sp" />
+
+    <TextView
+        android:id="@id/activity_about_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5.0dip"
+        android:layout_weight="1.0"
+        android:text="v1.0.0"
+        android:textColor="@color/head_button_text"
+        android:textSize="15.0sp" />
+
+    <TextView
+        android:id="@id/activity_about_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5.0dip"
+        android:textColor="@color/head_button_text"
+        android:textSize="14.0sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50.0dip"
+        android:text="copyright ©2014房房宝 版权所有"
+        android:textColor="@color/head_button_text"
+        android:textSize="14.0sp" />
+
+</LinearLayout>

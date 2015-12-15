@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ffb_actionbar_header" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+        
+    
+
+        <com.ffbao.ui.widget.XListView
+            android:id="@+id/lv_customs"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null" />
+
+        <include layout="@layout/ffb_not_binded_layout1" />
+
+<!--         <include layout="@layout/not_logined_layout1" /> -->
+
+        <include layout="@layout/ffb_no_data_layout" />
+    </RelativeLayout>
+
+</LinearLayout>

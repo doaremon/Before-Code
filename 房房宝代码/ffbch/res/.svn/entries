@@ -1,0 +1,61 @@
+10
+
+dir
+278
+svn://192.168.1.61/android/ffbclient/res
+svn://192.168.1.61/android
+
+
+
+2014-12-04T09:36:14.395240Z
+276
+chao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ce625fcf-bb95-4d07-821d-36c89fb14ab5
+
+values
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-xxhdpi
+dir
+
+anim
+dir
+
+menu
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+layout
+dir
+
+color
+dir
+

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/pubsub_info_body"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_register"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/pubsub_info_body"
+        android:orientation="vertical" >
+
+        <include layout="@layout/ffb_actionbar_header" />
+
+        <include layout="@layout/ffb_activity_register_mobile1" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/space_height" >
+
+            <include layout="@layout/ffb_divider1" />
+
+            <LinearLayout
+                style="@style/setting_section_style"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/editting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.0"
+                    android:text="真实姓名" />
+
+                <EditText
+                    android:id="@id/etName"
+                    style="@style/editting_right"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/setting_edit_margin_left"
+                    android:layout_marginRight="@dimen/setting_margin_right"
+                    android:layout_weight="0.0"
+                    android:hint="请输入真实姓名"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <!-- <include layout="@layout/divider_left" /> -->
+
+            <include layout="@layout/ffb_divider1" />
+
+            <include layout="@layout/view_space" />
+
+            <include layout="@layout/ffb_divider1" />
+
+            <LinearLayout
+                style="@style/setting_section_style"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/editting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.0"
+                    android:text="设置密码" />
+
+                <EditText
+                    android:id="@id/etPassword"
+                    style="@style/editting_right"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/setting_edit_margin_left"
+                    android:layout_marginRight="@dimen/setting_margin_right"
+                    android:layout_weight="1.0"
+                    android:hint="至少6位数字或字母"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <include layout="@layout/ffb_divider_left" />
+
+            <LinearLayout
+                style="@style/setting_section_style"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/editting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.0"
+                    android:text="确认密码" />
+
+                <EditText
+                    android:id="@+id/etPassword_comfir"
+                    style="@style/editting_right"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/setting_edit_margin_left"
+                    android:layout_marginRight="@dimen/setting_margin_right"
+                    android:layout_weight="1.0"
+                    android:hint="确 认 密 码"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <include layout="@layout/ffb_divider1" />
+
+            <include layout="@layout/view_space" />
+
+            <include layout="@layout/ffb_divider1" />
+
+            <LinearLayout
+                style="@style/setting_section_style"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/editting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.0"
+                    android:text="开户人姓名" />
+
+                <EditText
+                    android:id="@+id/account_name"
+                    style="@style/editting_right"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/setting_edit_margin_left"
+                    android:layout_marginRight="@dimen/setting_margin_right"
+                    android:layout_weight="1.0"
+                    android:hint="开户人姓名" />
+            </LinearLayout>
+
+            <include layout="@layout/ffb_divider1" />
+
+            <LinearLayout
+                style="@style/setting_section_style"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/editting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.0"
+                    android:text="开户行" />
+
+                <TextView
+                    android:id="@+id/select_bank"
+                    style="@style/editting_right"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/setting_edit_margin_left"
+                    android:layout_marginRight="@dimen/setting_margin_right"
+                    android:layout_weight="1.0"
+                    android:hint="选择银行" />
+            </LinearLayout>
+
+            <include layout="@layout/ffb_divider_left" />
+
+            <LinearLayout
+                style="@style/setting_section_style"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/editting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.0"
+                    android:text="银行卡号" />
+
+                <EditText
+                    android:id="@+id/bank_number"
+                    style="@style/editting_right"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/setting_edit_margin_left"
+                    android:layout_marginRight="@dimen/setting_margin_right"
+                    android:layout_weight="1.0"
+                    android:hint="银行卡号"
+                    android:phoneNumber="true" />
+            </LinearLayout>
+
+            <include layout="@layout/ffb_divider1" />
+
+            <LinearLayout
+                style="@style/setting_section_style"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    style="@style/editting_left"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.0"
+                    android:text="推荐人" />
+
+                <EditText
+                    android:id="@+id/recommend"
+                    style="@style/editting_right"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/setting_edit_margin_left"
+                    android:layout_weight="1.0"
+                    android:digits="1234567890"
+                    android:hint="输入手机号码"
+                    android:inputType="phone" />
+
+                <include layout="@layout/ffb_divider_vertical" />
+
+                <TextView
+                    android:id="@+id/btn_ps_contrl"
+                    android:layout_width="60.0dip"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ffb_section"
+                    android:gravity="center"
+                    android:text="扫一扫"
+                    android:textColor="@drawable/ffb_text_orange"
+                    android:textSize="17.0sp" />
+            </LinearLayout>
+
+            <include layout="@layout/ffb_divider1" />
+
+            <LinearLayout
+                style="@style/setting_section_style"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/cb_flag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip"
+                    android:button="@drawable/ffb_checkbox"
+                    android:checked="true" />
+
+                <TextView
+                    android:id="@+id/tv_clause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/ffb_section"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="《我阅读并同意该隐私条款》"
+                    android:textColor="@color/bg_nav"
+                    android:textSize="17.0sp" />
+            </LinearLayout>
+
+            <include layout="@layout/ffb_divider1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:orientation="vertical"
+            android:textColor="@color/white"
+            android:textSize="16dip"
+            android:weightSum="2" >
+
+            <Button
+                android:id="@+id/pubsub_info_message"
+                style="@style/button_style"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="完成" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

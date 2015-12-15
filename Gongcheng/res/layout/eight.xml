@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/doctor_send_msg_et"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/wodezixuntextvbiew"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            
+            android:text="sss" />
+
+        <TextView
+             android:id="@+id/wodezixuntextvbiew2"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+             android:layout_marginLeft="16dp"
+            android:lines="2"
+            android:text="sss" />
+    </LinearLayout>
+
+</LinearLayout>

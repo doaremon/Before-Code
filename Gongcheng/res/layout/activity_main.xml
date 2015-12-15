@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub_bg"
+    android:orientation="vertical" >
+
+    <!-- 这个是 医生登录 开始-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sub_title_bg" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/yishengdenglu" />
+
+    </LinearLayout>
+    <!-- 这个是 医生登录 结束-->
+    <!-- 这个是帐号密码 开始-->
+    <!-- 这个是帐号 开始-->
+    <TableLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"  
+         android:stretchColumns="1"
+         android:paddingTop="10dp"
+         android:paddingLeft="8dp"
+         android:paddingRight="8dp"
+         android:paddingBottom="10dp"
+        >
+      <TableRow 
+          android:gravity="center"
+          android:background="@drawable/detail_top_bg"
+          >
+         <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#130c0e"
+         android:padding="10dp"
+         android:text="@string/yonghuming"
+         android:gravity="center"
+             />
+
+         <EditText 
+             android:id="@+id/zhanghao"
+             android:singleLine="true"           
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@null"
+             android:hint="请输入帐号" />
+    
+      </TableRow>  
+    <!-- 这个是帐号 结束-->
+    <!-- 这个是密码 开始-->
+     <TableRow 
+         
+         android:background="@drawable/detail_center_bg"
+         >
+         <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#130c0e"
+         android:padding="10dp"
+         android:text="@string/mima"
+             />
+
+         <EditText
+             android:id="@+id/mima"
+             android:singleLine="true"
+             android:background="@null"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:textColor="#130c0e"
+             android:scrollHorizontally="true"  
+             android:password="true"
+             android:hint="请输入密码" >
+             
+             <requestFocus />
+         </EditText>      
+     </TableRow>
+    
+      <!-- 这个是密码 结束-->
+     
+     <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:background="@drawable/detail_bottom_bg"
+             >
+
+         <CheckBox
+             android:id="@+id/zidongdenglu"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="40dip"
+             android:button="@drawable/box"
+             android:text="@string/zidongdenglu"
+             android:textColor="#130c0e" />
+
+         <CheckBox
+             android:id="@+id/jizhumima"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20dip"
+              android:button="@drawable/box"
+             android:text="@string/jizhumima"
+             android:textColor="#130c0e" />
+          
+     </LinearLayout>
+     </TableLayout>
+   
+    
+    
+    <!-- 这个是帐号密码 结束-->
+ 
+
+
+    
+    <!-- 登录 按钮 开始-->
+    <Button 
+        android:id="@+id/denglu"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:text="@string/denglu"
+        android:textSize="8pt"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/login_btn_normal"
+        />
+    <!-- 登录 按钮 结束-->
+</LinearLayout>    

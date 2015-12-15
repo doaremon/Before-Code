@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SurfaceView
+        android:id="@+id/sv_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="bar" />
+
+    <LinearLayout
+        android:id="@+id/ll_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#7F000000"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <SeekBar
+            android:id="@+id/sb_progress"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp" >
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:contentDescription="@string/icon"
+                android:onClick="close"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_player_finishs" />
+
+            <ImageButton
+                android:id="@+id/btn_play"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/transparent"
+                android:contentDescription="@string/icon"
+                android:onClick="play"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_player_plays" />
+
+            <ImageButton
+                android:id="@+id/btn_pause"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/transparent"
+                android:contentDescription="@string/icon"
+                android:onClick="pause"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_players_pauses"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</merge>

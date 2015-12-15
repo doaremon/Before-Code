@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/usb
+END
+SmartServiceUSB.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/SmartHome/!svn/ver/579/src/com/u4/home/usb/SmartServiceUSB.java
+END
+UsbControler.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/usb/UsbControler.java
+END
+OnUSBCallBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/usb/OnUSBCallBack.java
+END
+FT311UARTInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/SmartHome/!svn/ver/540/src/com/u4/home/usb/FT311UARTInterface.java
+END

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_bg" >
+
+    <LinearLayout
+        android:id="@+id/kkk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sub_title_bg" >
+
+        <ImageButton
+            android:id="@+id/zixunxiangqinghoutui"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@drawable/sub_title_back_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="31dp"
+            android:layout_weight="0.74"
+            android:gravity="center"
+            android:text="咨询详情"
+            android:textColor="#fffffb" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_below="@+id/kkk" >
+
+        <ListView
+            android:id="@+id/zixunxiangqing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:divider="@null"
+            android:dividerHeight="10dp" >
+        </ListView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/zixunxiangqing"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/qingshuruid_EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/doctor_send_msg_et"
+            android:hint="请输入">
+        </EditText>
+
+        <Button
+            android:id="@+id/doctourButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qingshuruid_EditText"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/login_btn_normal"
+            android:gravity="center"
+            android:text="回复" />
+    </LinearLayout>
+
+</RelativeLayout>

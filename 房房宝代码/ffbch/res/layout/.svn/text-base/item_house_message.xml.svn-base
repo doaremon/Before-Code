@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ffb_bg"
+    android:paddingLeft="@dimen/gap"
+    android:paddingRight="@dimen/gap"
+    android:paddingTop="7.0dip" 
+    android:padding="10dip">
+
+    <ImageView
+        android:id="@+id/item_house_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ffb_contacts"
+        android:layout_marginRight="10dip" />
+
+    <TextView
+        android:id="@+id/item_houst_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/item_house_share"
+        android:layout_toLeftOf="@id/item_house_share"
+        android:singleLine="true"
+        android:text="123123123"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/item_house_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_houst_title"
+        android:layout_marginTop="3dip"
+        android:singleLine="true"
+        android:text="2014年11月6日11:41:20"
+        android:textSize="16sp" />
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/divider_height"
+        android:contentDescription="@string/app_name"
+        android:layout_below="@id/item_house_date"
+        android:src="@color/divider" />
+
+    <LinearLayout
+        android:id="@+id/item_house_images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_house_date"
+        android:gravity="center"
+        android:layout_marginTop="6dip"
+        android:orientation="vertical" />
+    
+ 	<TextView
+        android:id="@+id/item_house_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_house_images"
+        android:layout_marginTop="3dip"
+        android:text="123123123asdasdasdasdasdasddasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdad"
+       	android:layout_marginBottom="10dip"
+        android:textSize="16sp" />
+    	
+</RelativeLayout>

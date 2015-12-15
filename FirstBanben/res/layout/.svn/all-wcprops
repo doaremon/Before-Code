@@ -1,0 +1,401 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/SmartHome/!svn/ver/568/res/layout
+END
+theme_adapter_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/SmartHome/!svn/ver/554/res/layout/theme_adapter_item.xml
+END
+list_row_empty.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SmartHome/!svn/ver/546/res/layout/list_row_empty.xml
+END
+music_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/SmartHome/!svn/ver/548/res/layout/music_adapter.xml
+END
+notice_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SmartHome/!svn/ver/547/res/layout/notice_adapter.xml
+END
+video_player.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/SmartHome/!svn/ver/534/res/layout/video_player.xml
+END
+equipment_remote_tv.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/SmartHome/!svn/ver/554/res/layout/equipment_remote_tv.xml
+END
+history_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/SmartHome/!svn/ver/545/res/layout/history_list.xml
+END
+equipment_append.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/SmartHome/!svn/ver/554/res/layout/equipment_append.xml
+END
+newmessage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/SmartHome/!svn/ver/573/res/layout/newmessage.xml
+END
+dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/SmartHome/!svn/ver/554/res/layout/dialog.xml
+END
+myview1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/SmartHome/!svn/ver/568/res/layout/myview1.xml
+END
+equipment_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SmartHome/!svn/ver/562/res/layout/equipment_list.xml
+END
+myview2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/SmartHome/!svn/ver/253/res/layout/myview2.xml
+END
+myview3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/SmartHome/!svn/ver/568/res/layout/myview3.xml
+END
+myview4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/SmartHome/!svn/ver/499/res/layout/myview4.xml
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/SmartHome/!svn/ver/577/res/layout/config.xml
+END
+zone_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/SmartHome/!svn/ver/552/res/layout/zone_list.xml
+END
+equipment_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/SmartHome/!svn/ver/554/res/layout/equipment_adapter.xml
+END
+shop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/SmartHome/!svn/ver/546/res/layout/shop.xml
+END
+menu_grid_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/SmartHome/!svn/ver/562/res/layout/menu_grid_adapter.xml
+END
+zone_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/SmartHome/!svn/ver/552/res/layout/zone_adapter.xml
+END
+right.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/SmartHome/!svn/ver/415/res/layout/right.xml
+END
+dialog_radio_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/SmartHome/!svn/ver/546/res/layout/dialog_radio_adapter.xml
+END
+appqr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/SmartHome/!svn/ver/577/res/layout/appqr.xml
+END
+message_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/SmartHome/!svn/ver/547/res/layout/message_adapter.xml
+END
+defence_zone.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/SmartHome/!svn/ver/552/res/layout/defence_zone.xml
+END
+list_simple.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/SmartHome/!svn/ver/562/res/layout/list_simple.xml
+END
+block_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/SmartHome/!svn/ver/545/res/layout/block_list.xml
+END
+undefence_zone.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SmartHome/!svn/ver/554/res/layout/undefence_zone.xml
+END
+theme_append.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/SmartHome/!svn/ver/554/res/layout/theme_append.xml
+END
+undefence.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/SmartHome/!svn/ver/554/res/layout/undefence.xml
+END
+frame_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/SmartHome/!svn/ver/557/res/layout/frame_main.xml
+END
+message_player.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SmartHome/!svn/ver/510/res/layout/message_player.xml
+END
+duijiangtongxin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/SmartHome/!svn/ver/568/res/layout/duijiangtongxin.xml
+END
+warning_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/SmartHome/!svn/ver/552/res/layout/warning_adapter.xml
+END
+video_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/SmartHome/!svn/ver/548/res/layout/video_adapter.xml
+END
+frame_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/SmartHome/!svn/ver/568/res/layout/frame_0.xml
+END
+frame_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/SmartHome/!svn/ver/568/res/layout/frame_1.xml
+END
+frame_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/SmartHome/!svn/ver/568/res/layout/frame_2.xml
+END
+notice_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/SmartHome/!svn/ver/545/res/layout/notice_list.xml
+END
+myvideo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/SmartHome/!svn/ver/559/res/layout/myvideo.xml
+END
+message_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/SmartHome/!svn/ver/545/res/layout/message_list.xml
+END
+music.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/SmartHome/!svn/ver/545/res/layout/music.xml
+END
+monitor_list_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/SmartHome/!svn/ver/562/res/layout/monitor_list_adapter.xml
+END
+ad.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/SmartHome/!svn/ver/573/res/layout/ad.xml
+END
+photo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/SmartHome/!svn/ver/545/res/layout/photo.xml
+END
+block_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/SmartHome/!svn/ver/547/res/layout/block_adapter.xml
+END
+dialogshow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/SmartHome/!svn/ver/465/res/layout/dialogshow.xml
+END
+inc_header_weather.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/SmartHome/!svn/ver/527/res/layout/inc_header_weather.xml
+END
+history_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/SmartHome/!svn/ver/547/res/layout/history_adapter.xml
+END
+menu_grid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/SmartHome/!svn/ver/562/res/layout/menu_grid.xml
+END
+theme_adapter_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/SmartHome/!svn/ver/554/res/layout/theme_adapter_group.xml
+END
+undefence_password.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/SmartHome/!svn/ver/554/res/layout/undefence_password.xml
+END
+block_append.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/SmartHome/!svn/ver/562/res/layout/block_append.xml
+END
+inc_header_finish.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/SmartHome/!svn/ver/387/res/layout/inc_header_finish.xml
+END
+defence_zone_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/SmartHome/!svn/ver/552/res/layout/defence_zone_adapter.xml
+END
+undefence_zone_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/SmartHome/!svn/ver/552/res/layout/undefence_zone_adapter.xml
+END
+warning_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/SmartHome/!svn/ver/545/res/layout/warning_list.xml
+END
+translucent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/SmartHome/!svn/ver/428/res/layout/translucent.xml
+END
+notice_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/SmartHome/!svn/ver/562/res/layout/notice_detail.xml
+END
+photo_player.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/SmartHome/!svn/ver/535/res/layout/photo_player.xml
+END
+video.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/SmartHome/!svn/ver/545/res/layout/video.xml
+END
+message_recorder.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/SmartHome/!svn/ver/512/res/layout/message_recorder.xml
+END
+message_append.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SmartHome/!svn/ver/562/res/layout/message_append.xml
+END
+myviewpage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/SmartHome/!svn/ver/538/res/layout/myviewpage.xml
+END
+equipment_remote_air.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/SmartHome/!svn/ver/554/res/layout/equipment_remote_air.xml
+END

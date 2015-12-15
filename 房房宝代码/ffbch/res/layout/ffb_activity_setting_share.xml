@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+<include 
+     android:id="@+id/rl_chat_nv"
+    layout="@layout/ffb_actionbar_header" />
+
+    <ImageView
+        android:id="@id/img"
+        android:layout_width="225.0dip"
+        android:layout_height="225.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50.0dip"
+        android:layout_below="@id/rl_chat_nv"
+        android:scaleType="fitXY" />
+
+<!--     <TextView -->
+<!--         android:id="@id/text" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@id/img" -->
+<!--         android:layout_marginTop="10.0dip" -->
+<!--         android:gravity="center_horizontal" -->
+<!--         android:text="让好友扫描此二维码或把链接发给对方" -->
+<!--         android:textColor="@color/head_button_text" -->
+<!--         android:textSize="17.0sp" /> -->
+
+<!--     <TextView -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@id/text" -->
+<!--         android:gravity="center_horizontal" -->
+<!--         android:text="即可下载安装,还能拿积分哦！" -->
+<!--         android:textColor="@color/head_button_text" -->
+<!--         android:textSize="17.0sp" /> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ffb_bg_gray"
+        android:paddingBottom="20.0dip"
+        android:paddingTop="20.0dip" >
+
+        <TextView
+            android:id="@id/dialog_share_sms"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/ffb_bg_share_sms"
+            android:gravity="center"
+            android:text="短信"
+            android:textColor="#ff000000" />
+			
+        <TextView
+            android:id="@id/dialog_share_moments"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/ffb_bg_share_friend"
+            android:gravity="center"
+            android:text="朋友圈"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:id="@id/dialog_share_weixin"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/ffb_bg_share_weixin"
+            android:gravity="center"
+            android:text="微信"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:id="@id/dialog_share_weibo"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/ffb_bg_share_weibo"
+            android:gravity="center"
+            android:text="微博"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+</RelativeLayout>

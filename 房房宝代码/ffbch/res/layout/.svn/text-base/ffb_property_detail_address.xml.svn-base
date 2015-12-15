@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        style="@style/line_style"
+        android:layout_marginTop="16.0dip" />
+
+    <LinearLayout
+        android:id="@+id/in_baidu_map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ffb_list_selector_housedetail"
+        android:duplicateParentState="true"
+        android:gravity="left|center"
+        android:minHeight="@dimen/min_area_action"
+        android:orientation="horizontal"
+        android:padding="@dimen/gap" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8.0dip"
+            android:src="@drawable/ffb_icon_location" />
+
+        <TextView
+            android:id="@id/tvAddress"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/gap"
+            android:layout_weight="1.0"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/ffb_black_white"
+            android:textSize="17.0sp" />
+<!-- android:text="金源一路而下路1188路金源一路而下路1188路" -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/gap"
+            android:paddingRight="5.0dip"
+            android:src="@drawable/ffb_arrow_ico" />
+    </LinearLayout>
+
+</LinearLayout>

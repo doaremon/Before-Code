@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trend_list_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/callHistory_nextShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/callHistory_firstShow"
+        android:layout_alignBottom="@+id/callHistory_firstShow"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/callHistory_firstShow"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/callHistory_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/callHistory_nextShow"
+        android:layout_alignBottom="@+id/callHistory_nextShow"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="7dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/callHistory_firstShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/callHistory_firstShow"
+        android:src="@android:color/darker_gray" />
+
+</RelativeLayout>

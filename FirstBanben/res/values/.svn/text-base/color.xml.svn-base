@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#FF999999</color>
+    <color name="gray_dark">#FF666666</color>
+    <color name="gray_light">#FFCCCCCC</color>
+    <color name="zise">#FF662d74</color>
+    <color name="danzise">#66662d74</color>
+
+</resources>

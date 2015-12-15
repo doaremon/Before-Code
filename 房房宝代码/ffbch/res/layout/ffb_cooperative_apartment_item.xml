@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llsaleUnit"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ffb_section"
+    android:padding="@dimen/gap" >
+
+    <ImageView
+        android:id="@id/ivImage"
+        android:layout_width="100.0dip"
+        android:layout_height="75.0dip"
+        android:layout_marginBottom="@dimen/gap"
+        android:layout_marginLeft="@dimen/gap"
+        android:layout_marginTop="@dimen/gap"
+        android:src="@drawable/ffb_defualt_huancunbig"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.0"
+        android:gravity="center"
+        android:padding="@dimen/gap" >
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:paddingLeft="5.0dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@id/tvType"
+                    style="@style/list_of_focused_text_styles"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:text="3室2厅一卫" />
+
+                <TextView
+                    android:id="@id/tvArea"
+                    style="@style/list_of_non_focused_text_styles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/gap"
+                    android:paddingBottom="3.0dip"
+                    android:text="120㎡" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@id/tvName"
+                style="@style/list_of_non_focused_text_styles"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/gap"
+                android:text="A2户型A2户型A2户型A2户型A2户型A2户型A2户型A2户型"
+                android:textColor="@color/head_button_text" />
+
+            <TextView
+                android:id="@id/tvAnalyze"
+                style="@style/list_of_non_focused_text_styles"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/gap"
+                android:text="两房两房两房两房两房两房两房两房两房两房两房两房"
+                android:textColor="@color/head_button_text" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/gap"
+            android:src="@drawable/ffb_arrow_ico"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/SmartHome/!svn/ver/232/libs/armeabi-v7a
+END
+libcameraservice.so
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/SmartHome/!svn/ver/232/libs/armeabi-v7a/libcameraservice.so
+END
+gdbserver
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/SmartHome/!svn/ver/70/libs/armeabi-v7a/gdbserver
+END
+libOmxCore.so
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/SmartHome/!svn/ver/229/libs/armeabi-v7a/libOmxCore.so
+END
+libCedarA.so
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SmartHome/!svn/ver/232/libs/armeabi-v7a/libCedarA.so
+END
+libiomx-gingerbread.so
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/SmartHome/!svn/ver/214/libs/armeabi-v7a/libiomx-gingerbread.so
+END
+gdb.setup
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/SmartHome/!svn/ver/70/libs/armeabi-v7a/gdb.setup
+END
+libOpenMAXAL.so
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/SmartHome/!svn/ver/229/libs/armeabi-v7a/libOpenMAXAL.so
+END
+libvlcjni.so
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/SmartHome/!svn/ver/71/libs/armeabi-v7a/libvlcjni.so
+END
+libcedarxosal.so
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/SmartHome/!svn/ver/232/libs/armeabi-v7a/libcedarxosal.so
+END
+libcamera_client.so
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/SmartHome/!svn/ver/232/libs/armeabi-v7a/libcamera_client.so
+END
+libh264declib.so
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/SmartHome/!svn/ver/229/libs/armeabi-v7a/libh264declib.so
+END
+libiomx-ics.so
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/SmartHome/!svn/ver/214/libs/armeabi-v7a/libiomx-ics.so
+END
+libCamera.so
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SmartHome/!svn/ver/232/libs/armeabi-v7a/libCamera.so
+END
+libCameraJni.so
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/SmartHome/!svn/ver/232/libs/armeabi-v7a/libCameraJni.so
+END
+libcedarv_base.so
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/SmartHome/!svn/ver/232/libs/armeabi-v7a/libcedarv_base.so
+END
+libcedarxbase.so
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/SmartHome/!svn/ver/232/libs/armeabi-v7a/libcedarxbase.so
+END
+libcedarv_adapter.so
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/SmartHome/!svn/ver/232/libs/armeabi-v7a/libcedarv_adapter.so
+END
+libcedarv.so
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SmartHome/!svn/ver/232/libs/armeabi-v7a/libcedarv.so
+END
+libiomx-hc.so
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/SmartHome/!svn/ver/214/libs/armeabi-v7a/libiomx-hc.so
+END
+libCedarX.so
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SmartHome/!svn/ver/232/libs/armeabi-v7a/libCedarX.so
+END

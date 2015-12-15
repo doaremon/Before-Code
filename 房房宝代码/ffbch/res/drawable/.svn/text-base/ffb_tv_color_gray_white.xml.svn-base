@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/white" />
+    <item android:state_checked="true" android:color="@color/white" />
+    <item android:state_selected="true" android:color="@color/white" />
+    <item android:color="@color/tv_color_customer_phone_gray" />
+</selector>

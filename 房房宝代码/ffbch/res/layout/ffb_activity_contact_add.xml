@@ -1,0 +1,67 @@
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trend_list_bg"
+    android:orientation="vertical"
+    tools:context=".ContactAddActivity" >
+	
+    <include layout="@layout/ffb_actionbar_header" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55.0dip"
+        android:background="@color/bg_nav"
+        android:paddingBottom="11.0dip"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:paddingTop="11.0dip" >
+	<RadioGroup 
+	    android:id="@+id/fragment_contact_tab_radioGruop"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    >
+	    <RadioButton
+            android:id="@+id/fragment_contact_tab_tonghua"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:background="@drawable/ffb_bg_tab_left"
+            android:gravity="center"
+            android:text="通话记录" 
+            android:checked="true"
+            android:textColor="@color/ffb_white_orange"
+            android:textSize="18.0sp" />
+        <RadioButton
+            android:id="@+id/fragment_contact_tab_lianxi"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:background="@drawable/ffb_bg_tab_right"
+            android:gravity="center"
+            android:text="通讯录"
+            android:textColor="@color/ffb_white_orange"
+            android:textSize="18.0sp" />
+	</RadioGroup>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_contact_content_contact"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/contact_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+
+</LinearLayout>

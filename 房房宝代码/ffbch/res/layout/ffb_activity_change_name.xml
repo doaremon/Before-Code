@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/trend_list_bg"
+    android:orientation="vertical" >
+    <include layout="@layout/ffb_actionbar_header" />
+    <TextView
+        android:id="@id/activity_change_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/setting_margin_left"
+        android:layout_marginLeft="@dimen/setting_margin_left"
+        android:layout_marginRight="@dimen/setting_margin_left"
+        android:layout_marginTop="20.0dip"
+        android:text="当前姓名："
+        android:textColor="@drawable/ffb_text_bg_item_gray"
+        android:textSize="@dimen/text_normal_sub"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_marginTop="@dimen/setting_margin_left"
+        android:contentDescription="@string/app_name"
+        android:src="@color/divider" />
+
+    <LinearLayout
+        style="@style/setting_section_style"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/editting_left"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.0"
+            android:text="姓 名"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@id/activity_change_new_name"
+            style="@style/editting_right"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="@dimen/setting_margin_right"
+            android:hint="输入新名字"
+            android:inputType="text"
+            android:paddingLeft="10.0dip"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <include layout="@layout/ffb_divider1" />
+
+    <Button
+        android:id="@id/activity_change_company_commit"
+        style="@style/button_style"
+        android:text="确认" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout android:orientation="vertical" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/ffb_list_selector_housedetail" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/line_style" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/blue_bg_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:layout_marginLeft="17.0dip" android:text="报备新客户" android:drawableLeft="@drawable/ffb_c_icon_add3" android:drawablePadding="5.0dip" />
+    </LinearLayout>
+</LinearLayout>

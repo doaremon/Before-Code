@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/heli/Documents/android/bitbucket/lreader4android.git/LReader4Android/ReaderCode/src/main/res/values-v11/styles_fbreader.xml -->
+    <eat-comment/>
+    <style name="FBReader.Activity" parent="android:Theme.Holo">
+	</style>
+    <style name="FBReader.Dialog" parent="android:Theme.Holo.Dialog">
+	</style>
+</resources>

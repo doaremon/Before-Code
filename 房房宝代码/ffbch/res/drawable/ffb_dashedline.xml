@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  @CopyRright (c) 2014-ffbmobile1.0.0 -->
+<!--  @author lee -->
+<!--  @create Date2014-11-27 -->
+<bitmap android:src="@drawable/ffb_line2" android:tileMode="repeat"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

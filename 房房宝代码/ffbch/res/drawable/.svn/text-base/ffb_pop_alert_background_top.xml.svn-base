@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners
+        android:bottomLeftRadius="0dip"
+        android:bottomRightRadius="0dip"
+        android:topLeftRadius="10dip"
+        android:topRightRadius="10dip" />
+
+    <padding
+        android:bottom="0dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp" />
+
+    <gradient
+        android:angle="90"
+        android:endColor="#062A4E"
+        android:startColor="#062A4E" />
+
+    <stroke
+        android:width="0dp"
+        android:color="#B8CBDE" />
+
+</shape>

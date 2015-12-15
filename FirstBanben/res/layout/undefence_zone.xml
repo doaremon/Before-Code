@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/list_background"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/list_group_single"
+        android:text="@string/undefence_mode" />
+
+    <RelativeLayout style="@style/list_row" >
+
+        <TextView
+            style="@style/list_row_title_no_icon"
+            android:text="@string/undefence_no_password" />
+
+        <ImageView
+            android:id="@+id/iv_switch_password"
+            style="@style/list_row_content_image"
+            android:layout_width="82.5dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/btn_switch_off" />
+
+        <View style="@style/list_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_password"
+        style="@style/list_row" >
+
+        <LinearLayout
+            style="@style/list_row_left"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/undefence_password"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/undefence_password_tip"
+                android:textColor="@color/gray"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_password"
+            style="@style/list_row_content" />
+
+        <View style="@style/list_divider" />
+    </RelativeLayout>
+
+    <TextView
+        style="@style/list_group_single"
+        android:text="@string/warning_zone" />
+
+    <ListView
+        android:id="@+id/lv_list"
+        style="@style/list_view_full"
+        android:listSelector="@color/transparent" />
+
+</LinearLayout>

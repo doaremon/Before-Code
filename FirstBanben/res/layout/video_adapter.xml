@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="48dp" />
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        style="@style/list_row_icon_left"
+        android:contentDescription="@string/icon"
+        android:src="@drawable/icon_film" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/list_row_title" />
+
+</RelativeLayout>

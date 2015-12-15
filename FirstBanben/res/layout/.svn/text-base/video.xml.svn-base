@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/list_background"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/list_group_single"
+        android:text="@string/video_list" />
+
+    <ListView
+        android:id="@+id/shipin_list"
+        style="@style/list_view" />
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/pubsub_info_body"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ffb_actionbar_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:weightSum="3" >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="设置密码"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:weightSum="3" >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="确认密码"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:orientation="vertical"
+        android:textColor="@color/white"
+        android:textSize="16dip"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/pubsub_info_follow"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/ffb_bg_btn_white"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:text="上  一   步"
+            android:textColor="@color/bg_nav"
+            android:textSize="16dip" />
+
+        <Button
+            android:id="@+id/pubsub_info_message"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ffb_bg_btn_blue"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+    </LinearLayout>
+
+</LinearLayout>

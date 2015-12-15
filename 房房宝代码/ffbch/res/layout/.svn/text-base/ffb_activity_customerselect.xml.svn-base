@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trend_list_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ffb_actionbar_header" />
+
+    <ListView
+        android:id="@+id/lv_houses"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dip"
+        android:divider="@color/listviewdivider"
+        android:dividerHeight="2dp" />
+    <!-- android:scrollbars="none" -->
+    <!-- android:divider="@null" -->
+    <!-- <include layout="@layout/no_data_layout" /> -->
+
+</LinearLayout>

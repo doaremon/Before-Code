@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <View style="@style/line_style" />
+
+    <TextView
+        android:id="@id/tvAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/trend_list_bg"
+        android:padding="10.0dip"
+        android:text="目标客户"
+        android:textColor="@color/head_button_text"
+        android:textSize="@dimen/detail_tag_diver" />
+
+    <View style="@style/line_style" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/gap"
+        android:background="@drawable/ffb_bg_kapian"
+        android:gravity="left|center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/gap" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_cus_action"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/gap" >
+
+            <TextView
+                style="@style/customer_target_text_tag"
+                android:text="客户年龄 :" />
+
+            <TextView
+                android:id="@id/custAge"
+                style="@style/customer_target_content_tag"
+                android:text="1111111" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_marginLeft="90.0dip"
+            android:background="#ffc6c6cc" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_cus_action"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/gap" >
+
+            <TextView
+                style="@style/customer_target_text_tag"
+                android:text="购房目的 :" />
+
+            <TextView
+                android:id="@id/chasePlan"
+                style="@style/customer_target_content_tag"
+                android:text="11111" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_marginLeft="90.0dip"
+            android:background="#ffc6c6cc" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_cus_action"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/gap" >
+
+            <TextView
+                style="@style/customer_target_text_tag"
+                android:text="购房预算 :" />
+
+            <TextView
+                android:id="@id/purchaseBudget"
+                style="@style/customer_target_content_tag"
+                android:text="11111" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_marginLeft="90.0dip"
+            android:background="#ffc6c6cc" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_cus_action"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/gap" >
+
+            <TextView
+                style="@style/customer_target_text_tag"
+                android:text="客户职业 :" />
+
+            <TextView
+                android:id="@id/customersProfessional"
+                style="@style/customer_target_content_tag"
+                android:text="11111" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_marginLeft="90.0dip"
+            android:background="#ffc6c6cc" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_cus_action"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/gap" >
+
+            <TextView
+                style="@style/customer_target_text_tag"
+                android:text="工作区域 :" />
+
+            <TextView
+                android:id="@id/workArea"
+                style="@style/customer_target_content_tag"
+                android:text="11111" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_marginLeft="90.0dip"
+            android:background="#ffc6c6cc" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_cus_action"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/gap" >
+
+            <TextView
+                style="@style/customer_target_text_tag"
+                android:text="居住区域 :" />
+
+            <TextView
+                android:id="@id/livingArea"
+                style="@style/customer_target_content_tag"
+                android:text="11111" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

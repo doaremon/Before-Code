@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ffb_actionbar_header" />
+    <!-- rl_chat_nv -->
+
+    <include layout="@layout/footer" android:id="@+id/layout_foot"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_foot"
+        android:layout_below="@id/rl_chat_nv"
+        android:orientation="vertical"
+        android:padding="5dip" >
+        <ListView 
+            android:id="@+id/topiclist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        
+    </LinearLayout>
+
+</RelativeLayout>

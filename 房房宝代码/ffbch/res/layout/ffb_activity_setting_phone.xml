@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/activty_bg_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10.0dip"
+        android:paddingTop="15.0dip" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:textSize="13.0sp" />
+
+        <RelativeLayout
+            style="@style/bg_box_style"
+            android:background="@drawable/ffb_bg_box_top"
+            android:paddingLeft="15.0dip" >
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:gravity="center_vertical"
+                android:hint="请输入手机号码"
+                android:inputType="number"
+                android:maxLength="11"
+                android:textColorHint="@color/black"
+                android:textSize="16.0sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:orientation="horizontal"
+            android:paddingLeft="5.0dip" >
+
+            <EditText
+                android:layout_width="1.0dip"
+                android:layout_height="47.0dip"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="7.0dip"
+                android:layout_weight="3.0"
+                android:background="@color/transparent"
+                android:hint="请输入验证码"
+                android:inputType="number"
+                android:padding="10.0dip"
+                android:textColorHint="@color/black"
+                android:textSize="16.0sp" />
+
+            <ImageView
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="@android:color/black" />
+
+            <Button
+                android:layout_width="1.0dip"
+                android:layout_height="47.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2.0"
+                android:text="获取验证码"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_changephone_commit"
+            android:layout_width="fill_parent"
+            android:layout_height="47.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/ffb_bg_btn_blue"
+            android:text="确认"
+            android:textColor="@color/white"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

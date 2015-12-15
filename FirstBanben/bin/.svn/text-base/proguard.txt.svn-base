@@ -1,0 +1,99 @@
+# view res/layout/face_dialog.xml #generated:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.zhihui.jiadiankongjian.Chuanglianguanli { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.zhihui.jiadiankongjian.Chuangliantianjia { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.zhihui.jiadiankongjian.Dengguangguanli { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.zhihui.jiadiankongjian.Dengguangtianjia { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.zhihui.jiadiankongjian.Jiadiankongjianshouye { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.zhihui.jiadiankongjian.Kaiguanguanli { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class com.zhihui.jiadiankongjian.Kaiguantianjia { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.zhihui.service.ChatService { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.zhihui.service.HeartBeatBroaadcastReceiver { <init>(...); }
+
+# view res/layout/shipingluzhi.xml #generated:23
+-keep class com.zhihui.shipingtonghua.CameraRecordSurfaceView { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.zhihui.shipingtonghua.Hujiaojilu { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.zhihui.shipingtonghua.Jinzhiliebiaotianjia { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.zhihui.shipingtonghua.Shequtongzhi { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.zhihui.shipingtonghua.Shipingliuyan { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.zhihui.shipingtonghua.Shipingluzhi { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.zhihui.shipingtonghua.Shipingtonghuashouye { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.zhihui.shipingtonghua.Shujukudemo { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.zhihui.shipingtonghua.Tonghuashezhi { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.zhihui.shipingtonghua.Tonghuashezhijingzhi { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.zhihui.shipingtonghua.Tonghuashezhiyunxu { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.zhihui.shipingtonghua.Yunxuliebiaotianjia { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.zhihui.shouye.Shouye { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.zhihui.ui.FileChoose { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.zhihui.ui.Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.zhihui.ui.MessageChat { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.zhihui.ui.RoomChat { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.zhihui.ui.Set { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.zhihui.ui.VideoChat { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.zhihui.ui.VoiceChat { <init>(...); }
+
+# view res/layout/main.xml #generated:13
+-keep class com.zhihui.widget.PullToRefreshExpandableListView { <init>(...); }
+
+# view res/layout/video_chat1.xml #generated:10
+-keep class com.zhihui.widget.VideoView { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.zhihui.winchat.Appcontext { <init>(...); }
+

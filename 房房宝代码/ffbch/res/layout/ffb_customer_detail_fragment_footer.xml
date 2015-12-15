@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_service_phone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:clickable="true"
+    android:paddingBottom="@dimen/customer_edit_padding"
+    android:paddingLeft="@dimen/gap_x2"
+    android:paddingRight="@dimen/gap_x2"
+    android:paddingTop="10.0dip" >
+
+    <LinearLayout
+        android:id="@id/llServicesCommissioner"
+        android:layout_width="fill_parent"
+        style="@style/button_style"
+        android:gravity="center"
+        android:minHeight="@dimen/min_area_action"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/gap_small"
+            android:src="@drawable/ffb_ico_tel_2" />
+
+        <TextView
+            android:id="@id/tvServicesCommissioner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8.0dip"
+            android:text="联系经纪服务专员"
+            android:textColor="@color/white"
+            android:textSize="17.0sp" />
+    </LinearLayout>
+
+</RelativeLayout>

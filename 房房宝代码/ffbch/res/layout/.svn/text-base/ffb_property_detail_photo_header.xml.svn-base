@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="@dimen/gap_x2" >
+
+    <RelativeLayout
+        android:id="@id/ivProjectImgTag"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="4.0"
+        android:clickable="true" >
+<!-- 这个 ImageView我进行过修改 原来的是ffb_defualt2-->
+        <ImageView
+            android:id="@id/ivProjectImg"
+            android:layout_width="140.0dip"
+            android:layout_height="100.0dip"
+            android:layout_marginTop="3.0dip"
+            android:clickable="false"
+            android:scaleType="centerCrop"
+            android:background="@drawable/ffb_defualt_huancunsm"
+             />
+<!--         android:src="@drawable/noimages2" -->
+
+        <TextView
+            android:id="@id/tvHouseStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/ivProjectImg"
+            android:layout_alignRight="@id/ivProjectImg"
+            android:background="@color/half_transparent_black"
+            android:clickable="false"
+            android:gravity="right"
+            android:padding="5.0dip"
+            android:textColor="@color/white"
+            android:textSize="16.0sp" 
+            android:visibility="gone"/>
+<!--         android:text="期房期房" -->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/ivTag"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/gap_x2"
+        android:layout_weight="5.0"
+        android:background="@drawable/ffb_section"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@id/detail_tag"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/tvProjectName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="19.0sp" />
+<!-- android:text="绿地新江桥城" -->
+            <TextView
+                android:id="@id/tvPrice"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:textColor="#ff808080"
+                android:textSize="@dimen/text_normal" />
+<!--                     android:text="18000元/平" -->
+            
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ffb_arrow_ico" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@id/cooper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    
+                    android:textColor="#ffdf4919"
+                    android:textSize="16.0sp" />
+<!-- android:text="256个" -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合作经纪人"
+                    android:textColor="#ff808080"
+                    android:textSize="11.0sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.5dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:background="#ffc8c7cc" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@id/potential"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffdf4919"
+                    android:textSize="16.0sp" />
+                <!-- android:text="256个" -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="意向客户"
+                    android:textColor="#ff808080"
+                    android:textSize="11.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

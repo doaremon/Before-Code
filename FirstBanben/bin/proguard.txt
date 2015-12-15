@@ -1,0 +1,177 @@
+# view AndroidManifest.xml #generated:133
+-keep class com.u4.home.call.BlockAppender { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.u4.home.call.BlockList { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.u4.home.call.CallIndex { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.u4.home.call.Calluser { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.u4.home.call.HistoryList { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.u4.home.call.Message { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.u4.home.call.MessageAppender { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.u4.home.call.MessageList { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.u4.home.call.MessagePlayer { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.u4.home.call.MessageRecorder { <init>(...); }
+
+# view res/layout/myviewpage.xml #generated:6
+-keep class com.u4.home.call.MyViewpages { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.u4.home.call.Myviewpage { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.u4.home.call.NoticeDetail { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.u4.home.call.NoticeList { <init>(...); }
+
+# view AndroidManifest.xml #generated:335
+-keep class com.u4.home.command.CommandListenerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:340
+-keep class com.u4.home.command.Mainbroadcast { <init>(...); }
+
+# view AndroidManifest.xml #generated:327
+-keep class com.u4.home.command.TranslucentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.u4.home.common.Appcontext { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.u4.home.common.Base { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.u4.home.control.ControlIndex { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class com.u4.home.control.Curtain { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class com.u4.home.control.Infrared { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class com.u4.home.control.InfraredRemote { <init>(...); }
+
+# view AndroidManifest.xml #generated:146
+-keep class com.u4.home.control.Light { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class com.u4.home.control.Switch { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class com.u4.home.control.Theme { <init>(...); }
+
+# view AndroidManifest.xml #generated:184
+-keep class com.u4.home.control.ThemeAppend { <init>(...); }
+
+# view AndroidManifest.xml #generated:314
+-keep class com.u4.home.main.AppQR { <init>(...); }
+
+# view AndroidManifest.xml #generated:308
+-keep class com.u4.home.main.Config { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.u4.home.main.HomeIndex { <init>(...); }
+
+# view res/layout/ad.xml #generated:6
+-keep class com.u4.home.main.MyVideoView { <init>(...); }
+
+# view AndroidManifest.xml #generated:320
+-keep class com.u4.home.main.Newmessage { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.u4.home.media.MediaIndex { <init>(...); }
+
+# view AndroidManifest.xml #generated:264
+-keep class com.u4.home.media.Music { <init>(...); }
+
+# view AndroidManifest.xml #generated:336
+-keep class com.u4.home.media.MusicService { <init>(...); }
+
+# view AndroidManifest.xml #generated:276
+-keep class com.u4.home.media.Photo { <init>(...); }
+
+# view AndroidManifest.xml #generated:270
+-keep class com.u4.home.media.PhotoPlayer { <init>(...); }
+
+# view AndroidManifest.xml #generated:252
+-keep class com.u4.home.media.Shop { <init>(...); }
+
+# view AndroidManifest.xml #generated:246
+-keep class com.u4.home.media.Video { <init>(...); }
+
+# view AndroidManifest.xml #generated:258
+-keep class com.u4.home.media.VideoPlayer { <init>(...); }
+
+# view AndroidManifest.xml #generated:301
+-keep class com.u4.home.monitor.MonitorCommunity { <init>(...); }
+
+# view AndroidManifest.xml #generated:295
+-keep class com.u4.home.monitor.MonitorFamily { <init>(...); }
+
+# view AndroidManifest.xml #generated:283
+-keep class com.u4.home.monitor.MonitorIndex { <init>(...); }
+
+# view AndroidManifest.xml #generated:289
+-keep class com.u4.home.monitor.MyVideo { <init>(...); }
+
+# view AndroidManifest.xml #generated:338
+-keep class com.u4.home.phoneservice.PhoneService { <init>(...); }
+
+# view AndroidManifest.xml #generated:197
+-keep class com.u4.home.safe.DefenceNow { <init>(...); }
+
+# view AndroidManifest.xml #generated:233
+-keep class com.u4.home.safe.DefenceZone { <init>(...); }
+
+# view AndroidManifest.xml #generated:191
+-keep class com.u4.home.safe.SafeIndex { <init>(...); }
+
+# view AndroidManifest.xml #generated:209
+-keep class com.u4.home.safe.Undefence { <init>(...); }
+
+# view AndroidManifest.xml #generated:203
+-keep class com.u4.home.safe.UndefencePassword { <init>(...); }
+
+# view AndroidManifest.xml #generated:227
+-keep class com.u4.home.safe.UndefenceZone { <init>(...); }
+
+# view AndroidManifest.xml #generated:221
+-keep class com.u4.home.safe.WarningList { <init>(...); }
+
+# view AndroidManifest.xml #generated:215
+-keep class com.u4.home.safe.ZoneList { <init>(...); }
+
+# view AndroidManifest.xml #generated:337
+-keep class com.u4.home.usb.SmartServiceUSB { <init>(...); }
+
+# view AndroidManifest.xml #generated:334
+-keep class com.videoServices.VideoServices { <init>(...); }
+
+# onClick res/layout/video_player.xml #generated:6
+-keepclassmembers class * { *** bar(...); }
+
+# onClick res/layout/video_player.xml #generated:35
+-keepclassmembers class * { *** close(...); }
+
+# onClick res/layout/video_player.xml #generated:58
+-keepclassmembers class * { *** pause(...); }
+
+# onClick res/layout/video_player.xml #generated:47
+-keepclassmembers class * { *** play(...); }
+

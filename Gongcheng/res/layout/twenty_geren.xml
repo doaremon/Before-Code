@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sub_title_bg" >
+
+        <ImageButton
+            android:id="@+id/gerenzhongxinhoutui_pe"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@drawable/sub_title_back_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="31dp"
+            android:layout_weight="0.74"
+            android:gravity="center"
+            android:text="个人中心"
+            android:textColor="#fffffb" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/gerenxingxi_persion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/person_list_btn_normal"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="个人信息" />
+
+    <TextView
+        android:id="@+id/geren_persion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/person_list_btn_normal"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="时间设置" />
+
+    <TextView
+        android:id="@+id/feiyongshezhi_pe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/person_list_btn_normal"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="费用设置" />
+
+    <TextView
+        android:id="@+id/zigebiangengzong_pe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/person_list_btn_normal"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="资格变更" />
+
+    <TextView
+        android:id="@+id/gerenzhongxinxiugaimima_pe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/person_list_btn_normal"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="修改密码" />
+
+    <TextView
+        android:id="@+id/wentifankui_pe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/person_list_btn_normal"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="问题反馈" />
+
+</LinearLayout>

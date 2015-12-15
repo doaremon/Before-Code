@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hy_tit"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="260dp"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/shangwu_pe"
+                android:layout_width="80dp"
+                 android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="sssss" />
+
+            <TextView
+                android:id="@+id/texxia"
+                android:layout_toRightOf="@+id/shangwu_pe"
+                android:layout_width="80dp"
+                 android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="qqqqqq" />
+
+            <TextView
+                android:id="@+id/xinqixuanze_pe"
+                android:layout_below="@+id/texxia"
+                android:layout_width="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="kkkkkk" />
+        </RelativeLayout>
+        <Button 
+            android:id="@+id/kaiguanbutton_pe"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            
+            />
+    </LinearLayout>
+
+</LinearLayout>

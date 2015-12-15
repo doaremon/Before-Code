@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  @CopyRright (c) 2014-ffbmobile1.0.0 -->
+<!--  @author lee -->
+<!--  @create Date2014-11-27 -->
+<shape android:shape="line"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/white" />
+    <stroke android:width="@dimen/divider_height" android:color="#ffc8c7cc" android:dashWidth="5.0dip" android:dashGap="5.0dip" />
+</shape>

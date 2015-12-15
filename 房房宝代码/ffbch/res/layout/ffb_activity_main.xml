@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+     <include layout="@layout/ffb_actionbar_header" />
+    <!-- Container -->
+
+    <FrameLayout
+        android:id="@+id/main_fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" >
+        <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+    </FrameLayout>
+
+    <!-- Tabs Container -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_deep" />
+
+    <LinearLayout
+        android:id="@+id/main_tabs_container"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingTop="0dp" >
+
+        <!-- QiXin Tab -->
+
+        <FrameLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@null" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom|center" >
+
+                <RadioButton
+                    android:id="@+id/main_tab_msgs"
+                    style="@style/TabButton"
+                    android:background="@drawable/ffb_tab_qixin"
+                    android:checked="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="top|right|center"
+                android:paddingRight="23dip"
+                android:paddingTop="8dp" >
+
+                <ImageView
+                    android:id="@+id/main_tab_chat_unread_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ffb_tab_unread"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Contacts Tab -->
+
+        <FrameLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@null" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom|center" >
+
+                <RadioButton
+                    android:id="@+id/main_tab_contacts"
+                    style="@style/TabButton"
+                    android:background="@drawable/ffb_tab_contacts"
+                    android:checked="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="top|right|center"
+                android:paddingRight="23dip"
+                android:paddingTop="8dp" >
+
+                <ImageView
+                    android:id="@+id/main_tab_contacts_unread_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ffb_tab_unread"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </FrameLayout>
+        <!-- Meetings Tab -->
+
+        <FrameLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@null" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom|center" >
+
+                <RadioButton
+                    android:id="@+id/main_tab_apps"
+                    style="@style/TabButton"
+                    android:background="@drawable/ffb_tab_meetings"
+                    android:checked="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="top|right|center"
+                android:paddingRight="23dip"
+                android:paddingTop="8dp" >
+
+                <ImageView
+                    android:id="@+id/main_tab_meetings_unread_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ffb_tab_unread"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </FrameLayout>
+        <!-- Settings Tab -->
+
+        <FrameLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@null" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom|center" >
+
+                <RadioButton
+                    android:id="@+id/main_tab_settings"
+                    style="@style/TabButton"
+                    android:background="@drawable/ffb_tab_settings"
+                    android:checked="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="top|right|center"
+                android:paddingRight="23dip"
+                android:paddingTop="8dp" >
+
+                <ImageView
+                    android:id="@+id/main_tab_settings_unread_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ffb_tab_unread"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="30dip"
+    android:layout_marginLeft="30dip"
+    android:layout_marginRight="30dip"
+    android:background="@drawable/ffb_pop_alert_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/popBackgroundTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ffb_pop_alert_background_top"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ffb_dialog_laucher_normal" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="提示更新"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/spview"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3A6C9D" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/tvNewVersionClipboard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp" >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dip"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_marginRight="4dip"
+            android:layout_weight="1"
+            android:background="@drawable/ffb_pop_alert_button_background"
+            android:text="@string/btn_confirm"
+            android:textColor="@drawable/ffb_app_panel_list_text_background" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_marginLeft="4dip"
+            android:layout_weight="1"
+            android:background="@drawable/ffb_pop_alert_button_background"
+            android:text="取消"
+            android:textColor="@drawable/ffb_app_panel_list_text_background" />
+    </LinearLayout>
+
+</LinearLayout>

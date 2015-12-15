@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.u4.home"
+    android:versionCode="1"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- <uses-permission android:name="android.permission.DEVICE_POWER" /> -->
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.usb.accessory" />
+
+    <application
+        android:name="com.u4.home.common.Appcontext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.u4.home.main.HomeIndex"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+                android:resource="@xml/accessory_filter" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.u4.home.common.Base"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- ====================================对讲通话======================================================== -->
+        <!-- 对讲通信,视频通话首页 -->
+        <activity
+            android:name="com.u4.home.call.CallIndex"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 呼叫记录 -->
+        <activity
+            android:name="com.u4.home.call.HistoryList"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 拨号界面 -->
+        <activity
+            android:name="com.u4.home.call.Calluser"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 进入界面 -->
+        <activity
+            android:name="com.u4.home.call.Myviewpage"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 视屏留言 -->
+        <activity
+            android:name="com.u4.home.call.Message"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 留言记录 -->
+        <activity
+            android:name="com.u4.home.call.MessageList"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.u4.home.call.MessagePlayer"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 视屏录制 -->
+        <activity
+            android:name="com.u4.home.call.MessageAppender"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.u4.home.call.MessageRecorder"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 社区通知 -->
+        <activity
+            android:name="com.u4.home.call.NoticeList"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 社区通知 显示内容 -->
+        <activity
+            android:name="com.u4.home.call.NoticeDetail"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 通话设置 -->
+        <activity
+            android:name="com.u4.home.call.BlockList"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 通话设置列表添加 -->
+        <activity
+            android:name="com.u4.home.call.BlockAppender"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- ====================================家电控件======================================================== -->
+        <!-- 家电控件首页 -->
+        <activity
+            android:name="com.u4.home.control.ControlIndex"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 灯光管理 -->
+        <activity
+            android:name="com.u4.home.control.Light"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 窗帘管理 -->
+        <activity
+            android:name="com.u4.home.control.Curtain"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 开关管理 -->
+        <activity
+            android:name="com.u4.home.control.Switch"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <!-- 红外管理 -->
+        <activity
+            android:name="com.u4.home.control.Infrared"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 红外管理-电视管理 添加 -->
+        <activity
+            android:name="com.u4.home.control.InfraredRemote"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <!-- 情景模式显示页面 -->
+        <activity
+            android:name="com.u4.home.control.Theme"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 情景模式   添加页面 -->
+        <activity
+            android:name="com.u4.home.control.ThemeAppend"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- ====================================安全防范======================================================== -->
+        <!-- 安全防范首页 -->
+        <activity
+            android:name="com.u4.home.safe.SafeIndex"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 立即布防 -->
+        <activity
+            android:name="com.u4.home.safe.DefenceNow"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 密码撤防 -->
+        <activity
+            android:name="com.u4.home.safe.UndefencePassword"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 无密码撤防 -->
+        <activity
+            android:name="com.u4.home.safe.Undefence"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 防区设置 -->
+        <activity
+            android:name="com.u4.home.safe.ZoneList"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 报警记录 -->
+        <activity
+            android:name="com.u4.home.safe.WarningList"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 撤防设置 -->
+        <activity
+            android:name="com.u4.home.safe.UndefenceZone"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 布防设置 -->
+        <activity
+            android:name="com.u4.home.safe.DefenceZone"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- ====================================多媒体======================================================== -->
+        <!-- 多媒体首页 -->
+        <activity
+            android:name="com.u4.home.media.MediaIndex"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 视屏播放器列表 -->
+        <activity
+            android:name="com.u4.home.media.Video"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 社区特供 -->
+        <activity
+            android:name="com.u4.home.media.Shop"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 视屏播放器 -->
+        <activity
+            android:name="com.u4.home.media.VideoPlayer"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 音乐播放器列表 -->
+        <activity
+            android:name="com.u4.home.media.Music"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 图片播放器 -->
+        <activity
+            android:name="com.u4.home.media.PhotoPlayer"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 图片显示 -->
+        <activity
+            android:name="com.u4.home.media.Photo"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- ====================================视屏监控======================================================== -->
+        <!-- 视屏监控首页 -->
+        <activity
+            android:name="com.u4.home.monitor.MonitorIndex"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 视屏监控首页 -->
+        <activity
+            android:name="com.u4.home.monitor.MyVideo"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 视屏监控end -->
+        <activity
+            android:name="com.u4.home.monitor.MonitorFamily"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 社区监控 -->
+        <activity
+            android:name="com.u4.home.monitor.MonitorCommunity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- ====================================设置======================================================== -->
+        <!-- 设置首页 -->
+        <activity
+            android:name="com.u4.home.main.Config"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 二维码页面 -->
+        <activity
+            android:name="com.u4.home.main.AppQR"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- 新消息 -->
+        <activity
+            android:name="com.u4.home.main.Newmessage"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- =========================跳转透明页面=================================== -->
+
+        <activity
+            android:name="com.u4.home.command.TranslucentActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <!-- ====================================服务======================================================== -->
+        <service android:name="com.videoServices.VideoServices" />
+        <service android:name="com.u4.home.command.CommandListenerService" />
+        <service android:name="com.u4.home.media.MusicService" />
+        <service android:name="com.u4.home.usb.SmartServiceUSB" />
+        <service android:name="com.u4.home.phoneservice.PhoneService" />
+
+        <receiver android:name="com.u4.home.command.Mainbroadcast" >
+            <intent-filter>
+                <action android:name="maincalluser" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

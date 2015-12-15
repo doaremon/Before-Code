@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/list_background"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/list_group_single"
+        android:text="@string/mode_select" />
+
+    <RelativeLayout style="@style/list_row" >
+
+        <TextView
+            style="@style/list_row_title_no_icon"
+            android:text="@string/block_list" />
+
+        <ImageView
+            android:id="@+id/iv_switch_block"
+            style="@style/list_row_content_image"
+            android:layout_width="82.5dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/btn_switch_off" />
+
+        <View style="@style/list_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/list_row" >
+
+        <TextView
+            style="@style/list_row_title_no_icon"
+            android:text="@string/allow_list" />
+
+        <ImageView
+            android:id="@+id/iv_switch_allow"
+            style="@style/list_row_content_image"
+            android:layout_width="82.5dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/btn_switch_off" />
+
+        <View style="@style/list_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/list_group" >
+
+        <TextView
+            android:id="@+id/tv_group_name"
+            style="@style/list_group_title" />
+
+        <ImageView
+            android:id="@+id/iv_add"
+            style="@style/list_row_content_image"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/ic_menu_add" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_list"
+        style="@style/list_view" />
+
+</LinearLayout>

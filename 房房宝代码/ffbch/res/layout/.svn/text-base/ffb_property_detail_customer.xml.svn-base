@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View style="@style/line_style" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/trend_list_bg"
+        android:clickable="false"
+        android:padding="10.0dip"
+        android:text="我的客户"
+        android:textColor="@color/head_button_text"
+        android:textSize="@dimen/detail_tag_diver" />
+
+    <View style="@style/line_style" />
+
+    <RelativeLayout
+        android:id="@id/id_same_cus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ffb_list_selector_housedetail"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/min_area_action"
+        android:padding="@dimen/gap"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/gap"
+            android:clickable="false"
+            android:text="匹配客户"
+            android:textColor="@color/ffb_black_white"
+            android:textSize="18.0sp" />
+
+        <ImageView
+            android:id="@id/same_customer_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:clickable="false"
+            android:paddingRight="5.0dip"
+            android:src="@drawable/ffb_arrow_ico" />
+
+        <TextView
+            android:id="@id/same_customer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/same_customer_img"
+            android:clickable="false"
+            android:paddingRight="8.0dip"
+            android:textColor="@color/head_button_text"
+            android:textSize="@dimen/text_normal" />
+<!--         android:text="10人" -->
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="17.0dip"
+        android:background="#ffc6c6cc"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@id/id_will_cus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ffb_list_selector_housedetail"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/min_area_action"
+        android:padding="@dimen/gap" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/gap"
+            android:clickable="false"
+            android:text="已报备客户"
+            android:textColor="@color/ffb_black_white"
+            android:textSize="18.0sp" />
+
+        <ImageView
+            android:id="@id/baobei_customer_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5.0dip"
+            android:clickable="false"
+            android:paddingRight="5.0dip"
+            android:src="@drawable/ffb_arrow_ico" />
+
+        <TextView
+            android:id="@id/baobei_customer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/baobei_customer_img"
+            android:clickable="false"
+            android:paddingRight="8.0dip"
+            android:textColor="@color/head_button_text"
+            android:textSize="@dimen/text_normal" />
+<!--         android:text="10人" -->
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="17.0dip"
+        android:background="#ffc6c6cc" />
+
+    <LinearLayout
+        android:id="@id/add_customer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ffb_list_selector_housedetail"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/cusotmer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="17.0dip"
+            android:drawableLeft="@drawable/ffb_icon_add"
+            android:drawablePadding="5.0dip"
+            android:gravity="center"
+            android:minHeight="@dimen/min_area_action"
+            android:text="报备客户"
+            android:textColor="#ff06c9b4"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

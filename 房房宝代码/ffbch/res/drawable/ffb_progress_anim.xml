@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/ffb_black_01"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/ffb_black_02"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/ffb_black_03"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/ffb_black_04"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/ffb_black_05"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/ffb_black_06"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/ffb_black_07"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/ffb_black_08"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/ffb_black_09"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/ffb_black_10"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/ffb_black_11"
+        android:duration="150">
+    </item>
+    <item
+        android:drawable="@drawable/ffb_black_12"
+        android:duration="150">
+    </item>
+
+</animation-list>

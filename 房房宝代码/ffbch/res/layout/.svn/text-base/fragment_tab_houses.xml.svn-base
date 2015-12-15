@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ffb_actionbar_header" />
+
+
+    <!-- <com.ffb.ffbandroid.ui.weight.xListView -->
+    <!-- android:id="@+id/lv_houses" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:overScrollMode="never" > -->
+    <!-- </com.ffb.ffbandroid.ui.weight.xListView> -->
+
+    <com.ffbao.ui.widget.XListView
+        android:id="@+id/lv_houses"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@null" />
+ 	<include layout="@layout/ffb_no_data_layout" />
+ 	
+ 	<TextView
+        android:id="@id/noData_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="40.0dip"
+        android:drawablePadding="10.0dip"
+        android:gravity="bottom"
+        android:text="暂无信息"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+</LinearLayout>

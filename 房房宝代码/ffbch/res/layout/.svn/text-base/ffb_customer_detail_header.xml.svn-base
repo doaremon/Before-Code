@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/customer_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ffb_list_selector_housedetail" >
+
+        <LinearLayout
+            android:id="@id/cus_header_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/c_margin_17"
+            android:layout_marginTop="@dimen/c_margin_17"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/c_margin_17" >
+
+            <TextView
+                android:id="@id/customer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="150.0dip"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="26.0sp" />
+<!--                 android:text="刘翔刘翔刘翔刘翔" -->
+
+            <TextView
+                android:id="@id/customer_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:textColor="@color/head_button_text"
+                android:textSize="17.0sp" />
+<!--                 android:text="13268598465" -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/mesgg_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/c_margin_17"
+            android:layout_marginTop="29.0dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@id/customer_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ffb_btn_message" />
+
+            <Button
+                android:id="@id/customer_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="33.0dip"
+                android:background="@drawable/ffb_btn_phone" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.5dip"
+            android:layout_height="60.0dip"
+            android:layout_marginRight="24.0dip"
+            android:layout_marginTop="@dimen/c_margin_17"
+            android:layout_toLeftOf="@id/mesgg_tag"
+            android:background="@drawable/ffb_line_bg" />
+
+        <View
+            style="@style/line_style"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+<!--     <View -->
+<!--         style="@style/line_style" -->
+<!--         android:layout_marginTop="11.0dip" /> -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@id/header_tag"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ffb_section"
+            android:clickable="false"
+            android:orientation="vertical"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            android:visibility="gone">
+
+            
+             <RelativeLayout
+                    android:id="@+id/rl_setting_version"
+                    style="@style/user_info_item"
+                    android:clickable="false" >
+
+                    <TextView
+                        android:id="@+id/static_Identity"
+                        style="@style/user_info_item_name"
+                        android:textColor="@color/black"
+                        android:text="报备单详情" />
+
+                    <ImageView
+                        android:id="@+id/static_Identity_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/ffb_arrow_ico_nor" />
+
+                    <TextView
+                        android:id="@+id/contact_info_identity"
+                        style="@style/user_info_item_text"
+                        android:layout_toLeftOf="@id/static_Identity_arrow"
+                        android:layout_toRightOf="@id/static_Identity"
+                        android:gravity="right|bottom"
+                         />
+<!--                     android:text="123123" -->
+                </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:duplicateParentState="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@id/will_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textColor="@color/orange"
+                android:textSize="15.0sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10.0dip"
+                android:text="推荐"
+                android:textColor="@color/head_button_text"
+                android:textSize="15.0sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/c_margin_17"
+                android:src="@drawable/ffb_arrow_ico"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <View
+            style="@style/line_style"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <!-- <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/add_floor" android:background="@drawable/section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip"> -->
+    <!-- <View style="@style/line_style" /> -->
+    <!-- <TextView android:textSize="18.0sp" android:textColor="@color/blue_bg_2" android:id="@id/baobei_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="11.0dip" android:layout_marginBottom="11.0dip" android:text="报备楼盘" android:drawableLeft="@drawable/c_icon_add" android:drawablePadding="5.0dip" /> -->
+    <!-- </LinearLayout> -->
+
+<!--     <View style="@style/line_style" /> -->
+
+</LinearLayout>

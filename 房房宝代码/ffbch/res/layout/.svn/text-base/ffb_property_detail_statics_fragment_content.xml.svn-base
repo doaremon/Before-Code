@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ @CopyRright (c) 2014-ffbmobile1.0.0 
+ @author CH 
+ @create Date2014-11-27
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/trend_list_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@id/llArgsContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="@dimen/customer_edit_margin"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/statics_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6.0dip"
+                android:layout_marginLeft="@dimen/customer_edit_margin"
+                android:layout_marginTop="48.0dip"
+                android:text="花样年别样城"
+                android:textColor="@color/commission_item_text_black"
+                android:textSize="@dimen/text_large"
+                android:visibility="gone" />
+
+            <LinearLayout
+                style="@style/floor_statics_layout_item"
+                android:visibility="gone" >
+
+                <TextView
+                    style="@style/floor_statics_text_left"
+                    android:layout_gravity="top"
+                    android:text="地址：" />
+
+                <TextView
+                    android:id="@id/tv_addr"
+                    style="@style/floor_statics_text_right" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/floor_statics_layout_item"
+                android:visibility="gone" >
+
+                <TextView
+                    style="@style/floor_statics_text_left"
+                    android:text="单价：" />
+
+                <TextView
+                    android:id="@id/tv_price"
+                    style="@style/floor_statics_text_right" />
+            </LinearLayout>
+
+            <ImageView
+                style="@style/floor_statics_divider"
+                android:visibility="gone" />
+
+            <LinearLayout style="@style/floor_statics_layout_item" >
+
+                <TextView
+                    style="@style/floor_statics_text_left"
+                    android:paddingTop="13.0dip"
+                    android:text="开盘时间:" />
+
+                <TextView
+                    android:id="@id/tv_start_time"
+                    style="@style/floor_statics_text_right"
+                    android:paddingTop="13.0dip"
+                    android:textColor="@color/commission_item_text_gray" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/floor_statics_layout_item" >
+
+                <TextView
+                    style="@style/floor_statics_text_left"
+                    android:text="开  发  商:" />
+
+                <TextView
+                    android:id="@id/tv_developer"
+                    style="@style/floor_statics_text_right"
+                    android:textColor="@color/commission_item_text_gray" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/floor_statics_layout_item" >
+
+                <TextView
+                    style="@style/floor_statics_text_left"
+                    android:text="物业公司:" />
+
+                <TextView
+                    android:id="@id/tv_wuye"
+                    style="@style/floor_statics_text_right"
+                    android:textColor="@color/commission_item_text_gray" />
+            </LinearLayout>
+
+<!--             <LinearLayout style="@style/floor_statics_layout_item" > -->
+
+<!--                 <TextView -->
+<!--                     style="@style/floor_statics_text_left" -->
+<!--                     android:text="物业类型:" /> -->
+
+<!--                 <TextView -->
+<!--                     android:id="@id/tv_wuye_type" -->
+<!--                     style="@style/floor_statics_text_right" -->
+<!--                     android:textColor="@color/commission_item_text_gray" /> -->
+<!--             </LinearLayout> -->
+
+            <LinearLayout style="@style/floor_statics_layout_item" >
+
+                <TextView
+                    style="@style/floor_statics_text_left"
+                    android:text="建筑类型:" />
+
+                <TextView
+                    android:id="@id/tv_build_type"
+                    style="@style/floor_statics_text_right"
+                    android:textColor="@color/commission_item_text_gray" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/floor_statics_layout_item" >
+
+                <TextView
+                    style="@style/floor_statics_text_left"
+                    android:text="建筑面积:" />
+
+                <TextView
+                    android:id="@id/tv_build_area"
+                    style="@style/floor_statics_text_right"
+                    android:textColor="@color/commission_item_text_gray" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/floor_statics_layout_item" >
+
+                <TextView
+                    style="@style/floor_statics_text_left"
+                    android:text="装修情况:" />
+
+                <TextView
+                    android:id="@id/tv_decorate"
+                    style="@style/floor_statics_text_right"
+                    android:textColor="@color/commission_item_text_gray" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/floor_statics_layout_item" >
+
+                <TextView
+                    style="@style/floor_statics_text_left"
+                    android:text="总  户  数:" />
+
+                <TextView
+                    android:id="@id/tvHouseholds"
+                    style="@style/floor_statics_text_right"
+                    android:textColor="@color/commission_item_text_gray" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/floor_statics_layout_item" >
+
+                <TextView
+                    style="@style/floor_statics_text_left"
+                    android:text="车  位  数:" />
+
+                <TextView
+                    android:id="@id/tvParkingDigits"
+                    style="@style/floor_statics_text_right"
+                    android:textColor="@color/commission_item_text_gray" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/floor_statics_layout_item" >
+
+                <TextView
+                    style="@style/floor_statics_text_left"
+                    android:text="容  积  率:" />
+
+                <TextView
+                    android:id="@id/tvPlotRatio"
+                    style="@style/floor_statics_text_right"
+                    android:textColor="@color/commission_item_text_gray" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/floor_statics_layout_item" >
+
+                <TextView
+                    style="@style/floor_statics_text_left"
+                    android:text="绿  地  率:" />
+
+                <TextView
+                    android:id="@id/tvGreeningRate"
+                    style="@style/floor_statics_text_right"
+                    android:textColor="@color/commission_item_text_gray" />
+            </LinearLayout>
+
+<!--             <LinearLayout style="@style/floor_statics_layout_item" > -->
+
+<!--                 <TextView -->
+<!--                     style="@style/floor_statics_text_left" -->
+<!--                     android:text="物  业  费:" /> -->
+
+<!--                 <TextView -->
+<!--                     android:id="@id/tvPropertyFee" -->
+<!--                     style="@style/floor_statics_text_right" -->
+<!--                     android:textColor="@color/commission_item_text_gray" /> -->
+<!--             </LinearLayout> -->
+
+            <View
+                style="@style/line_style"
+                android:layout_marginTop="17.0dip" />
+
+            <RelativeLayout
+                android:id="@id/static_dial_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/trend_list_bg"
+                android:clickable="true"
+                android:paddingLeft="@dimen/gap_x2"
+                android:paddingRight="@dimen/gap_x2" >
+
+                <LinearLayout
+                    android:id="@id/llServicesCommissioner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:minHeight="@dimen/min_area_action"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/gap_small"
+                        android:src="@drawable/ffb_ico_tel_2" />
+
+                    <TextView
+                        android:id="@+id/tvServiceName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8.0dip"
+                        android:text=""
+                        android:textColor="#ff06c9b4"
+                        android:textSize="17.0sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
